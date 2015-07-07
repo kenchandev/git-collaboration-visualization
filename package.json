@@ -1,0 +1,16 @@
+{
+  "name": "GitHub Collaboration Visualization",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ken Chan",
+  "scripts": {
+    "start": "",
+    "stop": ""
+  },
+  "dependencies": {
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    
+  }
+}

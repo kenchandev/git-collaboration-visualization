@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>React - First Component</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Container Node -->
+  <div id="app"></div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+  <script type="text/jsx">
+  /** @jsx React.DOM */
+    var MessageBox = React.createClass({
+      getInitialState: function(){
+        return {
+          isVisible: true,
+          titleMessage: 'Hello World!'
+        }
+      },
+      render: function(){
+        var inlineStyles = {
+          display: this.state.isVisible ? 'block' : 'none'
+        };
+
+        return (
+          <div className="container jumbotron" style={inlineStyles}>
+            <h1>{this.state.titleMessage}</h1>
+            <SubMessage/>
+          </div>
+        );
+      }
+    });
+
+    var SubMessage = React.createClass({
+      render: function(){
+        return (
+          <small>It is good to see you!</small>
+        );
+      }
+    });
+
+    var reactComponent = React.render(
+      <MessageBox/>,
+      document.getElementById("app"),
+      function(){
+        console.log("Hello World!");
+      }
+    );
+  </script>
+</body>
+</html>
