@@ -17,7 +17,14 @@
       getInitialState: function(){
         return {
           isVisible: true,
-          titleMessage: 'Hello World!'
+          titleMessage: 'What is up?',
+          messages: [
+            'I love this world!',
+            'Coffee flavored ice cream is underrated.',
+            'My spoon is too big.',
+            'Tuesday is evening. Did you bring your coat?',
+            'I am a banana.'
+          ]
         }
       },
       render: function(){
@@ -25,19 +32,28 @@
           display: this.state.isVisible ? 'block' : 'none'
         };
 
+        var messages = this.state.messages.map(function(message){
+          return <SubMessage message={message}/>
+        });
+
         return (
           <div className="container jumbotron" style={inlineStyles}>
             <h1>{this.state.titleMessage}</h1>
-            <SubMessage/>
+            {messages}
           </div>
         );
       }
     });
 
     var SubMessage = React.createClass({
+      getDefaultProps: function(){
+        return {
+          message: 'It is good to see you!'
+        }
+      },
       render: function(){
         return (
-          <small>It is good to see you!</small>
+          <div>{this.props.message}</div>
         );
       }
     });
