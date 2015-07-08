@@ -11,9 +11,16 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js"></script>
   <script type="text/jsx">
   /** @jsx React.DOM */
     var MessageBox = React.createClass({
+      deleteMessage: function(message){
+        var newMessages = _.without(this.state.messages, message);
+        this.setState({
+          messages: newMessages
+        });
+      },
       handleAdd: function(e){
         // console.log(e.target);
         var newMessage = this.refs.newMessage.getDOMNode().value;
@@ -21,6 +28,7 @@
         this.setState({
           messages: newMessages
         });
+        this.refs.newMessage.getDOMNode().value = "";
       },
       getInitialState: function(){
         return {
@@ -40,9 +48,10 @@
           display: this.state.isVisible ? 'block' : 'none'
         };
 
+        //  Must bind to obtain correct context (not window)
         var messages = this.state.messages.map(function(message){
-          return <SubMessage message={message}/>
-        });
+          return <SubMessage message={message} onDelete={this.deleteMessage}/>
+        }.bind(this));
 
         return (
           <div className="container jumbotron" style={inlineStyles}>
@@ -56,6 +65,9 @@
     });
 
     var SubMessage = React.createClass({
+      handleDelete: function(e){
+        this.props.onDelete(this.props.message);
+      },
       getDefaultProps: function(){
         return {
           message: 'It is good to see you!'
@@ -63,7 +75,10 @@
       },
       render: function(){
         return (
-          <div>{this.props.message}</div>
+          <div>
+            <span>{this.props.message}</span>
+            <button className="btn btn-danger" onClick={this.handleDelete}>X</button>
+          </div>
         );
       }
     });
