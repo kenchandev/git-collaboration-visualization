@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'remove',
+1 verbose cli   'github' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node_modules/github unbuild
+5 info preuninstall github@0.2.4
+6 info uninstall github@0.2.4
+7 verbose true,/Users/KAC/Desktop/github-collaborations/node_modules,/Users/KAC/Desktop/github-collaborations/node_modules unbuild github@0.2.4
+8 info postuninstall github@0.2.4
+9 error Error: EACCES, unlink '/Users/KAC/Desktop/github-collaborations/node_modules/github/node_modules/.bin/mime'
+9 error  { [Error: EACCES, unlink '/Users/KAC/Desktop/github-collaborations/node_modules/github/node_modules/.bin/mime']
+9 error   errno: 3,
+9 error   code: 'EACCES',
+9 error   path: '/Users/KAC/Desktop/github-collaborations/node_modules/github/node_modules/.bin/mime' }
+10 error Please try running this command again as root/Administrator.
+11 error System Darwin 14.3.0
+12 error command "/usr/local/bin/node" "/usr/local/bin/npm" "remove" "github"
+13 error cwd /Users/KAC/Desktop/github-collaborations
+14 error node -v v0.10.36
+15 error npm -v 1.4.28
+16 error path /Users/KAC/Desktop/github-collaborations/node_modules/github/node_modules/.bin/mime
+17 error code EACCES
+18 error errno 3
+19 error stack Error: EACCES, unlink '/Users/KAC/Desktop/github-collaborations/node_modules/github/node_modules/.bin/mime'
+20 verbose exit [ 3, true ]

@@ -1,5 +1,5 @@
 {
-  "name": "GitHub Collaboration Visualization",
+  "name": "github_collaboration_visualization",
   "version": "1.0.0",
   "private": true,
   "author": "Ken Chan",
@@ -8,9 +8,5 @@
     "stop": ""
   },
   "dependencies": {
-    "lodash": "latest"
-  },
-  "devDependencies": {
-    
   }
 }
