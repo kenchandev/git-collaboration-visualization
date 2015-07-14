@@ -1,6 +1,6 @@
 var async = require('async');
 var GitHubApi = require("github");
-
+var d3 = require("d3");
 /*
   Todo List:
 
@@ -23,9 +23,10 @@ var GitHubApi = require("github");
 
 (function(){
   var github;
+  var contributors = {};
 
   //  Helper function to process items asynchronously.
-  var processRepos = function(repos, username){
+  var processRepos = function(repos, username, res){
     var asyncRepos = [];
 
     repos.forEach(function(r){
@@ -39,12 +40,12 @@ var GitHubApi = require("github");
         throw err;
       }
       else{
-        processBranches(results, username);        
+        processBranches(results, username, res);        
       }
     });
   };
 
-  var processBranches = function(repos, username){
+  var processBranches = function(repos, username, res){
     var asyncBranches = [];
 
     repos.forEach(function(x){
@@ -64,12 +65,11 @@ var GitHubApi = require("github");
 
       results.forEach(function(repos){
         console.log(repos.length);
-        // repos.forEach(function(repo){
-        //   console.log('\n\n', repo);
-        // })
-      })
+      });
+
+      console.log('\n\n\n Contributor information \n\n\n', contributors);
       //  Need to process the results before rendering the webpage with JSON.
-      return results;
+      res.render('account', { info: JSON.stringify(contributors, null, '\t') });
     });
   };
 
@@ -107,7 +107,50 @@ var GitHubApi = require("github");
         throw err;
       }
       else{
-        callback(null, data);
+        // console.log("\n\n\n This is some data. \n\n\n\n", data[0].commit);
+        //  Must compile a list of contributors.
+        async.each(data, function(d, cb){
+          var email = d.commit.committer.email;
+          if(email in contributors){
+            if(repository in contributors[email]["repos"]){
+              var targetRepo = contributors[email]["repos"][repository];
+              targetRepo["commits"].push({
+                message: d.commit.message,
+                date: d.commit.committer.date
+              });
+              targetRepo["count"]++;
+            }
+            else{
+              contributors[email]["repos"][repository] = { 
+                                                           commits: [{
+                                                             branch: branch,
+                                                             message: d.commit.message,
+                                                             date: d.commit.committer.date
+                                                           }],
+                                                           count: 1
+                                                         };
+            }
+          }
+          else{
+            contributors[email] = { 
+                                    repos: {}, 
+                                    avatar_url: ((d.author !== null) ? d.author.avatar_url : null), 
+                                    login: ((d.author !== null) ? d.author.login : null),
+                                    name: d.commit.committer.name
+                                  };
+          }
+          cb();
+        }, function(err){
+            if(err){
+              throw err;
+            }
+            else{
+              // console.log('Data finished processing.');
+              //  Must send back both contributors and results.
+              callback(null, data);
+            }
+          }
+        );
       }
     });
   }
@@ -137,7 +180,7 @@ var GitHubApi = require("github");
   };
 
   //  Initialize GitHub API access.
-  function GitHubCollaborations(body){
+  function GitHubCollaborations(body, res){
     github = new GitHubApi({
       version: "3.0.0",
       debug: true,
@@ -153,6 +196,7 @@ var GitHubApi = require("github");
     this.type = body.type;
     this.username = body.username;
     this.accessToken = body.accessToken;
+    this.res = res;
   };
 
   //  Authenticate the user.
@@ -171,7 +215,7 @@ var GitHubApi = require("github");
         user: this.username
       }, function(err, repositories){
         if(err) throw err;
-        processRepos(repositories, this.username);
+        processRepos(repositories, this.username, this.res);
       }.bind(this));
     }
     else{
@@ -179,7 +223,7 @@ var GitHubApi = require("github");
         org: this.username
       }, function(err, repositories){
         if(err) throw err;
-        processRepos(repositories, this.username);
+        processRepos(repositories, this.username, this.res);
       }.bind(this));
     }
   };

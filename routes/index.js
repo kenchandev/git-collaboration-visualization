@@ -9,12 +9,13 @@ exports.index = function(req, res){
 };
 
 exports.handleGitHubInfo = function(req, res){
-  var githubCollab = new GitHubCollaborations(req.user);
+  var githubCollab = new GitHubCollaborations(req.user, res);
   
   //  Authenticate the GitHub user.
   githubCollab.authenticate();
+  githubCollab.getRepositories();
   //  Gather and process all of a user's repos' info (branches and commits). 
-  d3Data.processData(githubCollab.getRepositories(), res);
+  // d3Data.processData(, res);
 };
 
 
