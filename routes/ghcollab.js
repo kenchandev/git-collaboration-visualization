@@ -23,6 +23,7 @@ var d3 = require("d3");
 
 (function(){
   var github;
+  //  internal dictionary for side-panel view
   var contributors = {};
 
   //  Helper function to process items asynchronously.
@@ -111,27 +112,7 @@ var d3 = require("d3");
         //  Must compile a list of contributors.
         async.each(data, function(d, cb){
           var email = d.commit.committer.email;
-          if(email in contributors){
-            if(repository in contributors[email]["repos"]){
-              var targetRepo = contributors[email]["repos"][repository];
-              targetRepo["commits"].push({
-                message: d.commit.message,
-                date: d.commit.committer.date
-              });
-              targetRepo["count"]++;
-            }
-            else{
-              contributors[email]["repos"][repository] = { 
-                                                           commits: [{
-                                                             branch: branch,
-                                                             message: d.commit.message,
-                                                             date: d.commit.committer.date
-                                                           }],
-                                                           count: 1
-                                                         };
-            }
-          }
-          else{
+          if(!(email in contributors)){
             contributors[email] = { 
                                     repos: {}, 
                                     avatar_url: ((d.author !== null) ? d.author.avatar_url : null), 
@@ -139,13 +120,30 @@ var d3 = require("d3");
                                     name: d.commit.committer.name
                                   };
           }
+          if(email in contributors && repository in contributors[email]["repos"]){
+            var targetRepo = contributors[email]["repos"][repository];
+            targetRepo["commits"].push({
+              message: d.commit.message,
+              date: d.commit.committer.date
+            });
+            targetRepo["count"]++;
+          }
+          else{
+            contributors[email]["repos"][repository] = { 
+                                                         commits: [{
+                                                           branch: branch,
+                                                           message: d.commit.message,
+                                                           date: d.commit.committer.date
+                                                         }],
+                                                         count: 1
+                                                       };
+          }
           cb();
         }, function(err){
             if(err){
               throw err;
             }
             else{
-              // console.log('Data finished processing.');
               //  Must send back both contributors and results.
               callback(null, data);
             }
