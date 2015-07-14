@@ -1,0 +1,24 @@
+{
+  "name": "testing-github-collab",
+  "version": "0.0.1",
+  "description": "github collaboration visualization",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "make test"
+  },
+  "author": "Ken Chan",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.3.0",
+    "chai": "~1.8.1",
+    "express": "~3.3.4",
+    "jade": "~0.34.1",
+    "mocha": "~1.14.0",
+    "mongoose": "~3.8.0",
+    "passport": "~0.1.17",
+    "passport-github": "~0.1.5",
+    "phantom": "~0.5.4",
+    "should": "~2.0.2"
+  }
+}

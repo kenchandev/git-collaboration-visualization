@@ -1,0 +1,27 @@
+avatar_url
+
+side panel...
+
+merges - Who is mostly in charge of the structure of the application?
+
+
+
+
+
+
+
+--------------
+
+Is the github account of type 'user' or 'org'?
+
+Get all repositories...
+
+Get a list of all the people who've contributed to those repositories...
+(*** collaborators may be another network...)
+
+
+Stars and forks...
+
+
+
+lodash or d3 for processing data faster?
