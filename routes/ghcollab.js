@@ -70,7 +70,7 @@ var d3 = require("d3");
 
       console.log('\n\n\n Contributor information \n\n\n', contributors);
       //  Need to process the results before rendering the webpage with JSON.
-      res.render('account', { info: JSON.stringify(results, null, '\t') });
+      res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(results, null, '\t') });
     });
   };
 

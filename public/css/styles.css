@@ -1,0 +1,32 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 0px;
+}
+
+.container{
+  max-height: 100%;
+  top: 33%;
+}
+
+.login{
+  display: inline-block;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.github-logo{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.github-auth{
+  display: inline-block;
+  margin-top: 10px;
+}
