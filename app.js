@@ -6,12 +6,12 @@ var data = require('./routes/api');
 var path = require('path');
 var config = require('./oauth.js');
 var User = require('./user.js');
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 var passport = require('passport');
 var auth = require('./authentication.js');
 
 // connect to the database
-mongoose.connect('mongodb://localhost/passport-example');
+// mongoose.connect('mongodb://localhost/passport-example');
 
 var app = express();
 
@@ -46,6 +46,9 @@ passport.deserializeUser(function(id, done) {
 
 // routes
 app.get('/', index.index);
+app.get('/viz', function(req, res){
+  res.sendfile('views/visualization.html');
+});
 app.get('/account', ensureAuthenticated, function(req, res){
   User.findById(req.session.passport.user, function(err, user) {
     if(err) { 
