@@ -1,6 +1,6 @@
 var passport = require('passport');
 var GithubStrategy = require('passport-github').Strategy;
-// var User = require('./user.js')
+var User = require('./user.js')
 var config = require('./oauth.js')
 
 function UserWithAccess(_id, oauthID, name, username, type, created, __v, accessToken){
