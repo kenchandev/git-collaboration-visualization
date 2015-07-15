@@ -24,12 +24,7 @@ module.exports = passport.use(new GithubStrategy({
    User.findOne({ oauthID: profile.id }, function(err, user) {
      if(err) { console.log(err); }
      if (!err && user != null) {
-        console.log('\n\n\nAccess Token:', accessToken);
-        console.log('\n\n\n\nInformation from GitHub\n\n\n\n', profile);
-        console.log('\n\n\n Refresh Token:', refreshToken);
-        console.log('user:', user);
         var tokenedUser = new UserWithAccess(user._id, user.oauthID, user.name, profile.username, profile._json.type, user.created, user.__v, accessToken);
-        console.log('\n\n\n\nInformation from GitHub\n\n\n\n', tokenedUser);
        done(null, tokenedUser);
      } else {
        var user = new User({
