@@ -71,7 +71,8 @@ app.get('/logout', function(req, res){
 });
 
 // port
-app.listen(1337);
+var port = process.env.PORT || 1337;
+app.listen(port);
 
 // test authentication
 function ensureAuthenticated(req, res, next) {
