@@ -9,9 +9,9 @@ var User = require('./user.js');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var auth = require('./authentication.js');
-
+var config = require('./config.js');
 // connect to the database
-mongoose.connect('mongodb://localhost/passport-example');
+mongoose.connect('mongodb://' + 'root' + ':' + 'github-network' + '@ds045511.mongolab.com:45511/github-network');
 
 var app = express();
 
