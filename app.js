@@ -6,12 +6,12 @@ var data = require('./routes/api');
 var path = require('path');
 var config = require('./oauth.js');
 var User = require('./user.js');
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 var passport = require('passport');
 var auth = require('./authentication.js');
 
 // connect to the database
-// mongoose.connect('mongodb://localhost/passport-example');
+mongoose.connect('mongodb://localhost/passport-example');
 
 var app = express();
 
