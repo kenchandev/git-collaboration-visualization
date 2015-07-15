@@ -3,16 +3,16 @@ html
   head
     title= title
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    link(href='/css/bootstrap.min.css', rel='stylesheet', media='screen')
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css', rel='stylesheet', media='screen')
   body
-  .container              
-    h1 Say something meaningful here.
-    p.lead Say something worthwhile here.
-    a(href="/") Go home
-    br
-    a(href="/ping") Ping
-    br
-    a(href="/auth/github") Login via Github
-
-  script(src='http://code.jquery.com/jquery.js')
-  script(src='js/bootstrap.min.js')
+    div.container            
+      h1 Say something meaningful here.
+      p.lead Say something worthwhile here.
+      a(href="/") Go home
+      br
+      a(href="/ping") Ping
+      br
+      div.row
+        div.twelve.columns(style="text-align:center;")
+          a.button(href="/auth/github") Login via Github
+          

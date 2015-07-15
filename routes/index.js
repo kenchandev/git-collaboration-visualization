@@ -5,7 +5,7 @@ var d3Data = require("./data");
 
 exports.index = function(req, res){
   // console.log("\n\n\n\n\n\n\n\n\nInside /:\n\n\n\n\n\n\n\n\n",req.user);
-  res.render('index', { title: "Passport-Examples"});
+  res.render('index', { title: "GitHub Visualization"});
 };
 
 exports.handleGitHubInfo = function(req, res){

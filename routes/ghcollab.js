@@ -70,16 +70,11 @@ var d3 = require("d3");
 
       console.log('\n\n\n Contributor information \n\n\n', contributors);
       //  Need to process the results before rendering the webpage with JSON.
-      res.render('account', { info: JSON.stringify(contributors, null, '\t') });
+      res.render('account', { info: JSON.stringify(results, null, '\t') });
     });
   };
 
   var getBranches = function(repository, username, callback){
-    var addRepo = function(d, callback){
-      d.repository = repository;
-      callback(null, d);
-    };
-
     github.repos.getBranches({
       user: username,
       repo: repository
@@ -88,8 +83,11 @@ var d3 = require("d3");
         throw err;
       }
       else{
-        async.map(data, addRepo, function(err, newResults){
-          callback(null, newResults);
+        async.map(data, function(d, callback){
+            d.repository = repository;
+            callback(null, d);
+          }, function(err, newResults){
+            callback(null, newResults);
         }); 
       }
     });
@@ -123,6 +121,7 @@ var d3 = require("d3");
           if(email in contributors && repository in contributors[email]["repos"]){
             var targetRepo = contributors[email]["repos"][repository];
             targetRepo["commits"].push({
+              branch: branch,
               message: d.commit.message,
               date: d.commit.committer.date
             });
@@ -145,7 +144,12 @@ var d3 = require("d3");
             }
             else{
               //  Must send back both contributors and results.
-              callback(null, data);
+              async.map(data, function(d, callback){
+                  d.repository = repository;
+                  callback(null, d);
+                }, function(err, newResults){
+                  callback(null, newResults);
+              });
             }
           }
         );
