@@ -1,792 +1,709 @@
 {
-    "name": "flare",
+    "name": "Ken Chan",
+    "username": "KenChan23",
     "children": [
         {
-            "name": "Ken Chan",
-            "username": "KenChan23",
+            "name": "AnnotationWebTool",
+            "type": "repository",
             "children": [
                 {
-                    "name": "AnnotationWebTool",
-                    "type": "repository",
+                    "name": "gh-pages",
                     "children": [
                         {
-                            "name": "gh-pages",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 31
-                                    }
-                                ]
-                            ]
+                            "key": "Ken Chan",
+                            "values": 31
+                        }
+                    ]
+                },
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 56
+                        }
+                    ]
+                },
+                {
+                    "name": "old-version",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 26
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bike-Sync",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "androidMusicPlayer",
+                    "children": [
+                        {
+                            "key": "David Tan",
+                            "values": 1
                         },
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 56
-                                    }
-                                ]
-                            ]
+                            "key": "Changhyun Lee",
+                            "values": 13
                         },
                         {
-                            "name": "old-version",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 26
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Bike-Sync",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "androidMusicPlayer",
-                            "children": [
-                                [
-                                    {
-                                        "key": "David Tan",
-                                        "values": 1
-                                    },
-                                    {
-                                        "key": "Changhyun Lee",
-                                        "values": 13
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 20
-                                    },
-                                    {
-                                        "key": "David Ackerman",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Ken Chan",
+                            "values": 20
                         },
                         {
-                            "name": "chang",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Changhyun Lee",
-                                        "values": 20
-                                    },
-                                    {
-                                        "key": "David Ackerman",
-                                        "values": 5
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 20
-                                    }
-                                ]
-                            ]
+                            "key": "David Ackerman",
+                            "values": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "chang",
+                    "children": [
+                        {
+                            "key": "Changhyun Lee",
+                            "values": 20
                         },
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "David Ackerman",
-                                        "values": 10
-                                    },
-                                    {
-                                        "key": "Changhyun Lee",
-                                        "values": 18
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 20
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Buzzfeed-Cloud",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 5
-                                    },
-                                    {
-                                        "key": "Alan Chen",
-                                        "values": 5
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "CalendarWebApplication",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "KenChan23",
-                                        "values": 1
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "ChatClient-SPA",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "civic-graph",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "azure-workingBranch",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 9
-                                    },
-                                    {
-                                        "key": "andela-koni",
-                                        "values": 15
-                                    },
-                                    {
-                                        "key": "Charles F. Munat",
-                                        "values": 33
-                                    },
-                                    {
-                                        "key": "Kehinde",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "David Ackerman",
+                            "values": 5
                         },
                         {
-                            "name": "backend-refactor",
-                            "children": [
-                                [
-                                    {
-                                        "key": "andela-koni",
-                                        "values": 30
-                                    },
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 27
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 20
-                                    },
-                                    {
-                                        "key": "Ady Sevy",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "SugarOverflow",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Ken Chan",
+                            "values": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "David Ackerman",
+                            "values": 10
                         },
                         {
-                            "name": "d3-view",
-                            "children": [
-                                [
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 14
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 15
-                                    },
-                                    {
-                                        "key": "Ady Sevy",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "SugarOverflow",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Changhyun Lee",
+                            "values": 18
                         },
                         {
-                            "name": "front-end",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Tristan Siegel",
-                                        "values": 10
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 58
-                                    },
-                                    {
-                                        "key": "Ady Sevy",
-                                        "values": 1
-                                    },
-                                    {
-                                        "key": "Microsoft NY",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Ken Chan",
+                            "values": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Buzzfeed-Cloud",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 5
                         },
                         {
-                            "name": "mapview",
-                            "children": [
-                                [
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 41
-                                    },
-                                    {
-                                        "key": "andela-koni",
-                                        "values": 25
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 20
-                                    },
-                                    {
-                                        "key": "Ady Sevy",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "SugarOverflow",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Alan Chen",
+                            "values": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CalendarWebApplication",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "KenChan23",
+                            "values": 1
                         },
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Rasmi",
-                                        "values": 2
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 65
-                                    },
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 2
-                                    },
-                                    {
-                                        "key": "Fatima Sarah Khalid",
-                                        "values": 6
-                                    },
-                                    {
-                                        "key": "SugarOverflow",
-                                        "values": 15
-                                    },
-                                    {
-                                        "key": "Ady Sevy",
-                                        "values": 4
-                                    },
-                                    {
-                                        "key": "John Paul Farmer",
-                                        "values": 5
-                                    },
-                                    {
-                                        "key": "adysevy",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Ken Chan",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ChatClient-SPA",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "civic-graph",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "azure-workingBranch",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 3
                         },
                         {
-                            "name": "new-schema",
-                            "children": [
-                                [
-                                    {
-                                        "key": "andela-koni",
-                                        "values": 12
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 16
-                                    },
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 9
-                                    },
-                                    {
-                                        "key": "Ady Sevy",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "SugarOverflow",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "andela-ajayeoba",
+                            "values": 9
                         },
                         {
-                            "name": "test-environment",
-                            "children": [
-                                [
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 49
-                                    },
-                                    {
-                                        "key": "andela-koni",
-                                        "values": 25
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 20
-                                    },
-                                    {
-                                        "key": "Ady Sevy",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "SugarOverflow",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "andela-koni",
+                            "values": 15
                         },
                         {
-                            "name": "workingBranch",
-                            "children": [
-                                [
-                                    {
-                                        "key": "andela-koni",
-                                        "values": 19
-                                    },
-                                    {
-                                        "key": "andela-ajayeoba",
-                                        "values": 11
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 2
-                                    },
-                                    {
-                                        "key": "Charles F. Munat",
-                                        "values": 33
-                                    },
-                                    {
-                                        "key": "Kehinde",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Collaboration-Viz",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 30
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "FAA-Visualization",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 60
-                                    },
-                                    {
-                                        "key": "Efrayim Zitron",
-                                        "values": 4
-                                    },
-                                    {
-                                        "key": "Diviteja Guntamadugu",
-                                        "values": 3
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "IonicApp",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 3
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "JS-MapReduce",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 28
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "MarketDemo",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 8
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "MediaPlayer",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 8
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Mongoose-Experiment",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "NYCPreK",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Alan",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "OpenCV-Camera",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 8
-                                    }
-                                ]
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "PersonalWebsite",
-                    "type": "repository",
-                    "children": [
-                        {
-                            "name": "gh-pages",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Charles F. Munat",
+                            "values": 33
                         },
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 3
-                                    }
-                                ]
-                            ]
+                            "key": "Kehinde",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "Pinterest",
-                    "type": "repository",
+                    "name": "backend-refactor",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 4
-                                    }
-                                ]
-                            ]
+                            "key": "andela-koni",
+                            "values": 30
+                        },
+                        {
+                            "key": "andela-ajayeoba",
+                            "values": 27
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 20
+                        },
+                        {
+                            "key": "Ady Sevy",
+                            "values": 3
+                        },
+                        {
+                            "key": "SugarOverflow",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "Python-Data",
-                    "type": "repository",
+                    "name": "d3-view",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 2
-                                    }
-                                ]
-                            ]
+                            "key": "andela-ajayeoba",
+                            "values": 14
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 15
+                        },
+                        {
+                            "key": "Ady Sevy",
+                            "values": 3
+                        },
+                        {
+                            "key": "SugarOverflow",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "RC5-Nexys3",
-                    "type": "repository",
+                    "name": "front-end",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "Tristan Siegel",
+                            "values": 10
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 58
+                        },
+                        {
+                            "key": "Ady Sevy",
+                            "values": 1
+                        },
+                        {
+                            "key": "Microsoft NY",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "RealTimeFirebase",
-                    "type": "repository",
+                    "name": "mapview",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 8
-                                    }
-                                ]
-                            ]
+                            "key": "andela-ajayeoba",
+                            "values": 41
+                        },
+                        {
+                            "key": "andela-koni",
+                            "values": 25
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 20
+                        },
+                        {
+                            "key": "Ady Sevy",
+                            "values": 3
+                        },
+                        {
+                            "key": "SugarOverflow",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "SharedMarkdown",
-                    "type": "repository",
+                    "name": "master",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 2
-                                    }
-                                ]
-                            ]
+                            "key": "Rasmi",
+                            "values": 2
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 65
+                        },
+                        {
+                            "key": "andela-ajayeoba",
+                            "values": 2
+                        },
+                        {
+                            "key": "Fatima Sarah Khalid",
+                            "values": 6
+                        },
+                        {
+                            "key": "SugarOverflow",
+                            "values": 15
+                        },
+                        {
+                            "key": "Ady Sevy",
+                            "values": 4
+                        },
+                        {
+                            "key": "John Paul Farmer",
+                            "values": 5
+                        },
+                        {
+                            "key": "adysevy",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "STM32F4-ClockDisplay",
-                    "type": "repository",
+                    "name": "new-schema",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "andela-koni",
+                            "values": 12
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 16
+                        },
+                        {
+                            "key": "andela-ajayeoba",
+                            "values": 9
+                        },
+                        {
+                            "key": "Ady Sevy",
+                            "values": 3
+                        },
+                        {
+                            "key": "SugarOverflow",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "TernaryHeap",
-                    "type": "repository",
+                    "name": "test-environment",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "KenChan23",
-                                        "values": 3
-                                    },
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "andela-ajayeoba",
+                            "values": 49
+                        },
+                        {
+                            "key": "andela-koni",
+                            "values": 25
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 20
+                        },
+                        {
+                            "key": "Ady Sevy",
+                            "values": 3
+                        },
+                        {
+                            "key": "SugarOverflow",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "ToDoListApp",
-                    "type": "repository",
+                    "name": "workingBranch",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "KACVirtual",
-                                        "values": 1
-                                    }
-                                ]
-                            ]
+                            "key": "andela-koni",
+                            "values": 19
+                        },
+                        {
+                            "key": "andela-ajayeoba",
+                            "values": 11
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 2
+                        },
+                        {
+                            "key": "Charles F. Munat",
+                            "values": 33
+                        },
+                        {
+                            "key": "Kehinde",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Collaboration-Viz",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 32
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FAA-Visualization",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 60
+                        },
+                        {
+                            "key": "Efrayim Zitron",
+                            "values": 4
+                        },
+                        {
+                            "key": "Diviteja Guntamadugu",
+                            "values": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "IonicApp",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "JS-MapReduce",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 28
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MarketDemo",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MediaPlayer",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mongoose-Experiment",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NYCPreK",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Alan",
+                            "values": 3
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OpenCV-Camera",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PersonalWebsite",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "gh-pages",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 1
                         }
                     ]
                 },
                 {
-                    "name": "VideoChatApp",
-                    "type": "repository",
+                    "name": "master",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 7
-                                    }
-                                ]
-                            ]
+                            "key": "Ken Chan",
+                            "values": 3
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "name": "Pinterest",
+            "type": "repository",
+            "children": [
                 {
-                    "name": "WebScraper",
-                    "type": "repository",
+                    "name": "master",
                     "children": [
                         {
-                            "name": "master",
-                            "children": [
-                                [
-                                    {
-                                        "key": "Ken Chan",
-                                        "values": 2
-                                    }
-                                ]
-                            ]
+                            "key": "Ken Chan",
+                            "values": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Python-Data",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "RC5-Nexys3",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "RealTimeFirebase",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SharedMarkdown",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "STM32F4-ClockDisplay",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "TernaryHeap",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "KenChan23",
+                            "values": 3
+                        },
+                        {
+                            "key": "Ken Chan",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ToDoListApp",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "KACVirtual",
+                            "values": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "VideoChatApp",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "WebScraper",
+            "type": "repository",
+            "children": [
+                {
+                    "name": "master",
+                    "children": [
+                        {
+                            "key": "Ken Chan",
+                            "values": 2
                         }
                     ]
                 }

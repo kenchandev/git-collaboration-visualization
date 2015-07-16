@@ -27,10 +27,7 @@ var d3 = require("d3");
   var github;
   //  internal dictionary for side-panel view
   var contributors = {};
-  var visualization_data = {
-                              name: "flare",
-                              children: []
-                           };
+  var visualization_data = {};
 
   //  Helper function to process items asynchronously.
   var processRepos = function(repos, username, res){
@@ -38,7 +35,7 @@ var d3 = require("d3");
 
     repos.forEach(function(r){
       //  Need to set the children of the user's node to the user's repositories.
-      visualization_data.children[0].children.push({
+      visualization_data.children.push({
         name: r.name,
         type: "repository",
         children: []
@@ -83,13 +80,13 @@ var d3 = require("d3");
     repos.forEach(function(x){
       //  For each repository's array of branches, get more intricate data for each.
       x.forEach(function(y){
-        var selectedRepo = visualization_data.children[0].children.filter(function(d){
+        var selectedRepo = visualization_data.children.filter(function(d){
             return d.name === y.repository;
           });
 
           selectedRepo[0].children.push({
             name: y.name,
-            children: []
+            children: null
           })
 
         asyncBranches.push(function(callback){
@@ -106,7 +103,7 @@ var d3 = require("d3");
 
       // console.log("Number of Repos: ", results.length);
 
-      var userRepos = visualization_data.children[0].children;
+      var userRepos = visualization_data.children;
 
       // console.log("Number of Repos: ", userRepos.length);
 
@@ -126,7 +123,7 @@ var d3 = require("d3");
 
         console.log('\n\n\nContributions\n\n\n', contributions);
 
-        var selectedRepo = visualization_data.children[0].children.filter(function(d){
+        var selectedRepo = visualization_data.children.filter(function(d){
             return d.name === repository; 
         });
 
@@ -136,7 +133,7 @@ var d3 = require("d3");
 
         console.log('SelectedBranch:', selectedBranch);
 
-        selectedBranch[0].children.push(contributions);
+        selectedBranch[0].children = contributions;
 
         // if(specificRepo.children)
         //   specificRepo.children.push(contributions);
@@ -264,11 +261,9 @@ var d3 = require("d3");
     this.accessToken = body.accessToken;
     this.res = res;
 
-    visualization_data.children.push({
-      name: body.name,
-      username: body.username,
-      children: []
-    });
+    visualization_data.name = body.name;
+    visualization_data.username = body.username;
+    visualization_data.children =  [];
   };
 
   //  Authenticate the user.
