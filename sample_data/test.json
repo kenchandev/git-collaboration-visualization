@@ -1,1 +1,796 @@
-[ [ { "total": 56, "weeks": [ { "w": 1433030400, "a": 681190, "d": 360502, "c": 30 }, { "w": 1433635200, "a": 4864, "d": 1342, "c": 26 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "AnnotationWebTool" } ], [ { "total": 8, "weeks": [ { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 1095, "d": 0, "c": 1 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 136180, "d": 127, "c": 3 }, { "w": 1431216000, "a": 652, "d": 186, "c": 4 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "daack93", "id": 1013729, "avatar_url": "https://avatars.githubusercontent.com/u/1013729?v=3", "gravatar_id": "", "url": "https://api.github.com/users/daack93", "html_url": "https://github.com/daack93", "followers_url": "https://api.github.com/users/daack93/followers", "following_url": "https://api.github.com/users/daack93/following{/other_user}", "gists_url": "https://api.github.com/users/daack93/gists{/gist_id}", "starred_url": "https://api.github.com/users/daack93/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/daack93/subscriptions", "organizations_url": "https://api.github.com/users/daack93/orgs", "repos_url": "https://api.github.com/users/daack93/repos", "events_url": "https://api.github.com/users/daack93/events{/privacy}", "received_events_url": "https://api.github.com/users/daack93/received_events", "type": "User", "site_admin": false }, "repository": "Bike-Sync" }, { "total": 19, "weeks": [ { "w": 1424563200, "a": 161989, "d": 3, "c": 2 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 1201, "d": 21, "c": 2 }, { "w": 1426982400, "a": 302381, "d": 1, "c": 2 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 1474, "d": 190408, "c": 9 }, { "w": 1428796800, "a": 397, "d": 211, "c": 2 }, { "w": 1429401600, "a": 91, "d": 25, "c": 2 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "Bike-Sync" } ], [ { "total": 5, "weeks": [ { "w": 1428796800, "a": 272465, "d": 83, "c": 5 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "Buzzfeed-Cloud" }, { "total": 5, "weeks": [ { "w": 1428796800, "a": 20, "d": 119, "c": 5 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "imAlan", "id": 6701887, "avatar_url": "https://avatars.githubusercontent.com/u/6701887?v=3", "gravatar_id": "", "url": "https://api.github.com/users/imAlan", "html_url": "https://github.com/imAlan", "followers_url": "https://api.github.com/users/imAlan/followers", "following_url": "https://api.github.com/users/imAlan/following{/other_user}", "gists_url": "https://api.github.com/users/imAlan/gists{/gist_id}", "starred_url": "https://api.github.com/users/imAlan/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/imAlan/subscriptions", "organizations_url": "https://api.github.com/users/imAlan/orgs", "repos_url": "https://api.github.com/users/imAlan/repos", "events_url": "https://api.github.com/users/imAlan/events{/privacy}", "received_events_url": "https://api.github.com/users/imAlan/received_events", "type": "User", "site_admin": false }, "repository": "Buzzfeed-Cloud" } ], [ { "total": 2, "weeks": [ { "w": 1391299200, "a": 2915, "d": 0, "c": 2 }, { "w": 1391904000, "a": 0, "d": 0, "c": 0 }, { "w": 1392508800, "a": 0, "d": 0, "c": 0 }, { "w": 1393113600, "a": 0, "d": 0, "c": 0 }, { "w": 1393718400, "a": 0, "d": 0, "c": 0 }, { "w": 1394323200, "a": 0, "d": 0, "c": 0 }, { "w": 1394928000, "a": 0, "d": 0, "c": 0 }, { "w": 1395532800, "a": 0, "d": 0, "c": 0 }, { "w": 1396137600, "a": 0, "d": 0, "c": 0 }, { "w": 1396742400, "a": 0, "d": 0, "c": 0 }, { "w": 1397347200, "a": 0, "d": 0, "c": 0 }, { "w": 1397952000, "a": 0, "d": 0, "c": 0 }, { "w": 1398556800, "a": 0, "d": 0, "c": 0 }, { "w": 1399161600, "a": 0, "d": 0, "c": 0 }, { "w": 1399766400, "a": 0, "d": 0, "c": 0 }, { "w": 1400371200, "a": 0, "d": 0, "c": 0 }, { "w": 1400976000, "a": 0, "d": 0, "c": 0 }, { "w": 1401580800, "a": 0, "d": 0, "c": 0 }, { "w": 1402185600, "a": 0, "d": 0, "c": 0 }, { "w": 1402790400, "a": 0, "d": 0, "c": 0 }, { "w": 1403395200, "a": 0, "d": 0, "c": 0 }, { "w": 1404000000, "a": 0, "d": 0, "c": 0 }, { "w": 1404604800, "a": 0, "d": 0, "c": 0 }, { "w": 1405209600, "a": 0, "d": 0, "c": 0 }, { "w": 1405814400, "a": 0, "d": 0, "c": 0 }, { "w": 1406419200, "a": 0, "d": 0, "c": 0 }, { "w": 1407024000, "a": 0, "d": 0, "c": 0 }, { "w": 1407628800, "a": 0, "d": 0, "c": 0 }, { "w": 1408233600, "a": 0, "d": 0, "c": 0 }, { "w": 1408838400, "a": 0, "d": 0, "c": 0 }, { "w": 1409443200, "a": 0, "d": 0, "c": 0 }, { "w": 1410048000, "a": 0, "d": 0, "c": 0 }, { "w": 1410652800, "a": 0, "d": 0, "c": 0 }, { "w": 1411257600, "a": 0, "d": 0, "c": 0 }, { "w": 1411862400, "a": 0, "d": 0, "c": 0 }, { "w": 1412467200, "a": 0, "d": 0, "c": 0 }, { "w": 1413072000, "a": 0, "d": 0, "c": 0 }, { "w": 1413676800, "a": 0, "d": 0, "c": 0 }, { "w": 1414281600, "a": 0, "d": 0, "c": 0 }, { "w": 1414886400, "a": 0, "d": 0, "c": 0 }, { "w": 1415491200, "a": 0, "d": 0, "c": 0 }, { "w": 1416096000, "a": 0, "d": 0, "c": 0 }, { "w": 1416700800, "a": 0, "d": 0, "c": 0 }, { "w": 1417305600, "a": 0, "d": 0, "c": 0 }, { "w": 1417910400, "a": 0, "d": 0, "c": 0 }, { "w": 1418515200, "a": 0, "d": 0, "c": 0 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 0 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "CalendarWebApplication" } ], [ { "total": 1, "weeks": [ { "w": 1422144000, "a": 136, "d": 0, "c": 1 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "ChatClient-SPA" } ], [ { "total": 10, "weeks": [ { "w": 1433635200, "a": 34, "d": 0, "c": 1 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 362, "d": 112, "c": 9 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "Collaboration-Viz" } ], [ { "total": 3, "weeks": [ { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 217682, "d": 0, "c": 1 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 274364, "d": 274731, "c": 2 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "Teja0208", "id": 7219197, "avatar_url": "https://avatars.githubusercontent.com/u/7219197?v=3", "gravatar_id": "", "url": "https://api.github.com/users/Teja0208", "html_url": "https://github.com/Teja0208", "followers_url": "https://api.github.com/users/Teja0208/followers", "following_url": "https://api.github.com/users/Teja0208/following{/other_user}", "gists_url": "https://api.github.com/users/Teja0208/gists{/gist_id}", "starred_url": "https://api.github.com/users/Teja0208/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/Teja0208/subscriptions", "organizations_url": "https://api.github.com/users/Teja0208/orgs", "repos_url": "https://api.github.com/users/Teja0208/repos", "events_url": "https://api.github.com/users/Teja0208/events{/privacy}", "received_events_url": "https://api.github.com/users/Teja0208/received_events", "type": "User", "site_admin": false }, "repository": "FAA-Visualization" }, { "total": 57, "weeks": [ { "w": 1424563200, "a": 2591856, "d": 0, "c": 1 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 3472614, "d": 3735511, "c": 8 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 734762, "d": 1988615, "c": 3 }, { "w": 1429401600, "a": 780, "d": 692, "c": 4 }, { "w": 1430006400, "a": 28598, "d": 27776, "c": 12 }, { "w": 1430611200, "a": 125460, "d": 125193, "c": 12 }, { "w": 1431216000, "a": 1350, "d": 578, "c": 17 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "FAA-Visualization" } ], [ { "total": 2, "weeks": [ { "w": 1436659200, "a": 132190, "d": 3, "c": 2 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "IonicApp" } ], [ { "total": 28, "weeks": [ { "w": 1434844800, "a": 381, "d": 12, "c": 16 }, { "w": 1435449600, "a": 558, "d": 87, "c": 12 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "JS-MapReduce" } ], [ { "total": 8, "weeks": [ { "w": 1391299200, "a": 1330, "d": 3, "c": 3 }, { "w": 1391904000, "a": 39, "d": 5, "c": 4 }, { "w": 1392508800, "a": 592, "d": 9, "c": 1 }, { "w": 1393113600, "a": 0, "d": 0, "c": 0 }, { "w": 1393718400, "a": 0, "d": 0, "c": 0 }, { "w": 1394323200, "a": 0, "d": 0, "c": 0 }, { "w": 1394928000, "a": 0, "d": 0, "c": 0 }, { "w": 1395532800, "a": 0, "d": 0, "c": 0 }, { "w": 1396137600, "a": 0, "d": 0, "c": 0 }, { "w": 1396742400, "a": 0, "d": 0, "c": 0 }, { "w": 1397347200, "a": 0, "d": 0, "c": 0 }, { "w": 1397952000, "a": 0, "d": 0, "c": 0 }, { "w": 1398556800, "a": 0, "d": 0, "c": 0 }, { "w": 1399161600, "a": 0, "d": 0, "c": 0 }, { "w": 1399766400, "a": 0, "d": 0, "c": 0 }, { "w": 1400371200, "a": 0, "d": 0, "c": 0 }, { "w": 1400976000, "a": 0, "d": 0, "c": 0 }, { "w": 1401580800, "a": 0, "d": 0, "c": 0 }, { "w": 1402185600, "a": 0, "d": 0, "c": 0 }, { "w": 1402790400, "a": 0, "d": 0, "c": 0 }, { "w": 1403395200, "a": 0, "d": 0, "c": 0 }, { "w": 1404000000, "a": 0, "d": 0, "c": 0 }, { "w": 1404604800, "a": 0, "d": 0, "c": 0 }, { "w": 1405209600, "a": 0, "d": 0, "c": 0 }, { "w": 1405814400, "a": 0, "d": 0, "c": 0 }, { "w": 1406419200, "a": 0, "d": 0, "c": 0 }, { "w": 1407024000, "a": 0, "d": 0, "c": 0 }, { "w": 1407628800, "a": 0, "d": 0, "c": 0 }, { "w": 1408233600, "a": 0, "d": 0, "c": 0 }, { "w": 1408838400, "a": 0, "d": 0, "c": 0 }, { "w": 1409443200, "a": 0, "d": 0, "c": 0 }, { "w": 1410048000, "a": 0, "d": 0, "c": 0 }, { "w": 1410652800, "a": 0, "d": 0, "c": 0 }, { "w": 1411257600, "a": 0, "d": 0, "c": 0 }, { "w": 1411862400, "a": 0, "d": 0, "c": 0 }, { "w": 1412467200, "a": 0, "d": 0, "c": 0 }, { "w": 1413072000, "a": 0, "d": 0, "c": 0 }, { "w": 1413676800, "a": 0, "d": 0, "c": 0 }, { "w": 1414281600, "a": 0, "d": 0, "c": 0 }, { "w": 1414886400, "a": 0, "d": 0, "c": 0 }, { "w": 1415491200, "a": 0, "d": 0, "c": 0 }, { "w": 1416096000, "a": 0, "d": 0, "c": 0 }, { "w": 1416700800, "a": 0, "d": 0, "c": 0 }, { "w": 1417305600, "a": 0, "d": 0, "c": 0 }, { "w": 1417910400, "a": 0, "d": 0, "c": 0 }, { "w": 1418515200, "a": 0, "d": 0, "c": 0 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 0 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "MarketDemo" } ], [ { "total": 8, "weeks": [ { "w": 1421539200, "a": 379, "d": 17, "c": 8 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "MediaPlayer" } ], [ { "total": 1, "weeks": [ { "w": 1436054400, "a": 294491, "d": 0, "c": 1 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "Mongoose-Experiment" } ], [ { "total": 1, "weeks": [ { "w": 1400976000, "a": 27, "d": 0, "c": 1 }, { "w": 1401580800, "a": 0, "d": 0, "c": 0 }, { "w": 1402185600, "a": 0, "d": 0, "c": 0 }, { "w": 1402790400, "a": 0, "d": 0, "c": 0 }, { "w": 1403395200, "a": 0, "d": 0, "c": 0 }, { "w": 1404000000, "a": 0, "d": 0, "c": 0 }, { "w": 1404604800, "a": 0, "d": 0, "c": 0 }, { "w": 1405209600, "a": 0, "d": 0, "c": 0 }, { "w": 1405814400, "a": 0, "d": 0, "c": 0 }, { "w": 1406419200, "a": 0, "d": 0, "c": 0 }, { "w": 1407024000, "a": 0, "d": 0, "c": 0 }, { "w": 1407628800, "a": 0, "d": 0, "c": 0 }, { "w": 1408233600, "a": 0, "d": 0, "c": 0 }, { "w": 1408838400, "a": 0, "d": 0, "c": 0 }, { "w": 1409443200, "a": 0, "d": 0, "c": 0 }, { "w": 1410048000, "a": 0, "d": 0, "c": 0 }, { "w": 1410652800, "a": 0, "d": 0, "c": 0 }, { "w": 1411257600, "a": 0, "d": 0, "c": 0 }, { "w": 1411862400, "a": 0, "d": 0, "c": 0 }, { "w": 1412467200, "a": 0, "d": 0, "c": 0 }, { "w": 1413072000, "a": 0, "d": 0, "c": 0 }, { "w": 1413676800, "a": 0, "d": 0, "c": 0 }, { "w": 1414281600, "a": 0, "d": 0, "c": 0 }, { "w": 1414886400, "a": 0, "d": 0, "c": 0 }, { "w": 1415491200, "a": 0, "d": 0, "c": 0 }, { "w": 1416096000, "a": 0, "d": 0, "c": 0 }, { "w": 1416700800, "a": 0, "d": 0, "c": 0 }, { "w": 1417305600, "a": 0, "d": 0, "c": 0 }, { "w": 1417910400, "a": 0, "d": 0, "c": 0 }, { "w": 1418515200, "a": 0, "d": 0, "c": 0 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 0 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "NYCPreK" }, { "total": 3, "weeks": [ { "w": 1400976000, "a": 621, "d": 2, "c": 3 }, { "w": 1401580800, "a": 0, "d": 0, "c": 0 }, { "w": 1402185600, "a": 0, "d": 0, "c": 0 }, { "w": 1402790400, "a": 0, "d": 0, "c": 0 }, { "w": 1403395200, "a": 0, "d": 0, "c": 0 }, { "w": 1404000000, "a": 0, "d": 0, "c": 0 }, { "w": 1404604800, "a": 0, "d": 0, "c": 0 }, { "w": 1405209600, "a": 0, "d": 0, "c": 0 }, { "w": 1405814400, "a": 0, "d": 0, "c": 0 }, { "w": 1406419200, "a": 0, "d": 0, "c": 0 }, { "w": 1407024000, "a": 0, "d": 0, "c": 0 }, { "w": 1407628800, "a": 0, "d": 0, "c": 0 }, { "w": 1408233600, "a": 0, "d": 0, "c": 0 }, { "w": 1408838400, "a": 0, "d": 0, "c": 0 }, { "w": 1409443200, "a": 0, "d": 0, "c": 0 }, { "w": 1410048000, "a": 0, "d": 0, "c": 0 }, { "w": 1410652800, "a": 0, "d": 0, "c": 0 }, { "w": 1411257600, "a": 0, "d": 0, "c": 0 }, { "w": 1411862400, "a": 0, "d": 0, "c": 0 }, { "w": 1412467200, "a": 0, "d": 0, "c": 0 }, { "w": 1413072000, "a": 0, "d": 0, "c": 0 }, { "w": 1413676800, "a": 0, "d": 0, "c": 0 }, { "w": 1414281600, "a": 0, "d": 0, "c": 0 }, { "w": 1414886400, "a": 0, "d": 0, "c": 0 }, { "w": 1415491200, "a": 0, "d": 0, "c": 0 }, { "w": 1416096000, "a": 0, "d": 0, "c": 0 }, { "w": 1416700800, "a": 0, "d": 0, "c": 0 }, { "w": 1417305600, "a": 0, "d": 0, "c": 0 }, { "w": 1417910400, "a": 0, "d": 0, "c": 0 }, { "w": 1418515200, "a": 0, "d": 0, "c": 0 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 0 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "imAlan", "id": 6701887, "avatar_url": "https://avatars.githubusercontent.com/u/6701887?v=3", "gravatar_id": "", "url": "https://api.github.com/users/imAlan", "html_url": "https://github.com/imAlan", "followers_url": "https://api.github.com/users/imAlan/followers", "following_url": "https://api.github.com/users/imAlan/following{/other_user}", "gists_url": "https://api.github.com/users/imAlan/gists{/gist_id}", "starred_url": "https://api.github.com/users/imAlan/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/imAlan/subscriptions", "organizations_url": "https://api.github.com/users/imAlan/orgs", "repos_url": "https://api.github.com/users/imAlan/repos", "events_url": "https://api.github.com/users/imAlan/events{/privacy}", "received_events_url": "https://api.github.com/users/imAlan/received_events", "type": "User", "site_admin": false }, "repository": "NYCPreK" } ], [ { "total": 8, "weeks": [ { "w": 1421539200, "a": 1772, "d": 9, "c": 8 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "OpenCV-Camera" } ], [ { "total": 2, "weeks": [ { "w": 1412467200, "a": 2, "d": 0, "c": 1 }, { "w": 1413072000, "a": 0, "d": 0, "c": 0 }, { "w": 1413676800, "a": 0, "d": 0, "c": 0 }, { "w": 1414281600, "a": 0, "d": 0, "c": 0 }, { "w": 1414886400, "a": 0, "d": 0, "c": 0 }, { "w": 1415491200, "a": 0, "d": 0, "c": 0 }, { "w": 1416096000, "a": 0, "d": 0, "c": 0 }, { "w": 1416700800, "a": 0, "d": 0, "c": 0 }, { "w": 1417305600, "a": 0, "d": 0, "c": 0 }, { "w": 1417910400, "a": 0, "d": 0, "c": 0 }, { "w": 1418515200, "a": 0, "d": 0, "c": 0 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 1 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "PersonalWebsite" } ], [ { "total": 4, "weeks": [ { "w": 1421539200, "a": 995, "d": 31, "c": 4 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "Pinterest" } ], [ { "total": 2, "weeks": [ { "w": 1428192000, "a": 15830, "d": 0, "c": 1 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 192067, "d": 0, "c": 1 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "Python-Data" } ], [ { "total": 1, "weeks": [ { "w": 1418515200, "a": 211306, "d": 0, "c": 1 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 0 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "RC5-Nexys3" } ], [ { "total": 8, "weeks": [ { "w": 1432425600, "a": 1990, "d": 61, "c": 8 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "RealTimeFirebase" } ], [ { "total": 1, "weeks": [ { "w": 1418515200, "a": 29673, "d": 0, "c": 1 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 0 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "STM32F4-ClockDisplay" } ], [ { "total": 4, "weeks": [ { "w": 1391299200, "a": 365, "d": 29, "c": 4 }, { "w": 1391904000, "a": 0, "d": 0, "c": 0 }, { "w": 1392508800, "a": 0, "d": 0, "c": 0 }, { "w": 1393113600, "a": 0, "d": 0, "c": 0 }, { "w": 1393718400, "a": 0, "d": 0, "c": 0 }, { "w": 1394323200, "a": 0, "d": 0, "c": 0 }, { "w": 1394928000, "a": 0, "d": 0, "c": 0 }, { "w": 1395532800, "a": 0, "d": 0, "c": 0 }, { "w": 1396137600, "a": 0, "d": 0, "c": 0 }, { "w": 1396742400, "a": 0, "d": 0, "c": 0 }, { "w": 1397347200, "a": 0, "d": 0, "c": 0 }, { "w": 1397952000, "a": 0, "d": 0, "c": 0 }, { "w": 1398556800, "a": 0, "d": 0, "c": 0 }, { "w": 1399161600, "a": 0, "d": 0, "c": 0 }, { "w": 1399766400, "a": 0, "d": 0, "c": 0 }, { "w": 1400371200, "a": 0, "d": 0, "c": 0 }, { "w": 1400976000, "a": 0, "d": 0, "c": 0 }, { "w": 1401580800, "a": 0, "d": 0, "c": 0 }, { "w": 1402185600, "a": 0, "d": 0, "c": 0 }, { "w": 1402790400, "a": 0, "d": 0, "c": 0 }, { "w": 1403395200, "a": 0, "d": 0, "c": 0 }, { "w": 1404000000, "a": 0, "d": 0, "c": 0 }, { "w": 1404604800, "a": 0, "d": 0, "c": 0 }, { "w": 1405209600, "a": 0, "d": 0, "c": 0 }, { "w": 1405814400, "a": 0, "d": 0, "c": 0 }, { "w": 1406419200, "a": 0, "d": 0, "c": 0 }, { "w": 1407024000, "a": 0, "d": 0, "c": 0 }, { "w": 1407628800, "a": 0, "d": 0, "c": 0 }, { "w": 1408233600, "a": 0, "d": 0, "c": 0 }, { "w": 1408838400, "a": 0, "d": 0, "c": 0 }, { "w": 1409443200, "a": 0, "d": 0, "c": 0 }, { "w": 1410048000, "a": 0, "d": 0, "c": 0 }, { "w": 1410652800, "a": 0, "d": 0, "c": 0 }, { "w": 1411257600, "a": 0, "d": 0, "c": 0 }, { "w": 1411862400, "a": 0, "d": 0, "c": 0 }, { "w": 1412467200, "a": 0, "d": 0, "c": 0 }, { "w": 1413072000, "a": 0, "d": 0, "c": 0 }, { "w": 1413676800, "a": 0, "d": 0, "c": 0 }, { "w": 1414281600, "a": 0, "d": 0, "c": 0 }, { "w": 1414886400, "a": 0, "d": 0, "c": 0 }, { "w": 1415491200, "a": 0, "d": 0, "c": 0 }, { "w": 1416096000, "a": 0, "d": 0, "c": 0 }, { "w": 1416700800, "a": 0, "d": 0, "c": 0 }, { "w": 1417305600, "a": 0, "d": 0, "c": 0 }, { "w": 1417910400, "a": 0, "d": 0, "c": 0 }, { "w": 1418515200, "a": 0, "d": 0, "c": 0 }, { "w": 1419120000, "a": 0, "d": 0, "c": 0 }, { "w": 1419724800, "a": 0, "d": 0, "c": 0 }, { "w": 1420329600, "a": 0, "d": 0, "c": 0 }, { "w": 1420934400, "a": 0, "d": 0, "c": 0 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "TernaryHeap" } ], [], [ { "total": 7, "weeks": [ { "w": 1433030400, "a": 267537, "d": 439, "c": 7 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "VideoChatApp" } ], [ { "total": 2, "weeks": [ { "w": 1420934400, "a": 337, "d": 0, "c": 2 }, { "w": 1421539200, "a": 0, "d": 0, "c": 0 }, { "w": 1422144000, "a": 0, "d": 0, "c": 0 }, { "w": 1422748800, "a": 0, "d": 0, "c": 0 }, { "w": 1423353600, "a": 0, "d": 0, "c": 0 }, { "w": 1423958400, "a": 0, "d": 0, "c": 0 }, { "w": 1424563200, "a": 0, "d": 0, "c": 0 }, { "w": 1425168000, "a": 0, "d": 0, "c": 0 }, { "w": 1425772800, "a": 0, "d": 0, "c": 0 }, { "w": 1426377600, "a": 0, "d": 0, "c": 0 }, { "w": 1426982400, "a": 0, "d": 0, "c": 0 }, { "w": 1427587200, "a": 0, "d": 0, "c": 0 }, { "w": 1428192000, "a": 0, "d": 0, "c": 0 }, { "w": 1428796800, "a": 0, "d": 0, "c": 0 }, { "w": 1429401600, "a": 0, "d": 0, "c": 0 }, { "w": 1430006400, "a": 0, "d": 0, "c": 0 }, { "w": 1430611200, "a": 0, "d": 0, "c": 0 }, { "w": 1431216000, "a": 0, "d": 0, "c": 0 }, { "w": 1431820800, "a": 0, "d": 0, "c": 0 }, { "w": 1432425600, "a": 0, "d": 0, "c": 0 }, { "w": 1433030400, "a": 0, "d": 0, "c": 0 }, { "w": 1433635200, "a": 0, "d": 0, "c": 0 }, { "w": 1434240000, "a": 0, "d": 0, "c": 0 }, { "w": 1434844800, "a": 0, "d": 0, "c": 0 }, { "w": 1435449600, "a": 0, "d": 0, "c": 0 }, { "w": 1436054400, "a": 0, "d": 0, "c": 0 }, { "w": 1436659200, "a": 0, "d": 0, "c": 0 } ], "author": { "login": "KenChan23", "id": 4991363, "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3", "gravatar_id": "", "url": "https://api.github.com/users/KenChan23", "html_url": "https://github.com/KenChan23", "followers_url": "https://api.github.com/users/KenChan23/followers", "following_url": "https://api.github.com/users/KenChan23/following{/other_user}", "gists_url": "https://api.github.com/users/KenChan23/gists{/gist_id}", "starred_url": "https://api.github.com/users/KenChan23/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions", "organizations_url": "https://api.github.com/users/KenChan23/orgs", "repos_url": "https://api.github.com/users/KenChan23/repos", "events_url": "https://api.github.com/users/KenChan23/events{/privacy}", "received_events_url": "https://api.github.com/users/KenChan23/received_events", "type": "User", "site_admin": false }, "repository": "WebScraper" } ] ]
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "Ken Chan",
+            "username": "KenChan23",
+            "children": [
+                {
+                    "name": "AnnotationWebTool",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "gh-pages",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 31
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 56
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "old-version",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 26
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Bike-Sync",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "androidMusicPlayer",
+                            "children": [
+                                [
+                                    {
+                                        "key": "David Tan",
+                                        "values": 1
+                                    },
+                                    {
+                                        "key": "Changhyun Lee",
+                                        "values": 13
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 20
+                                    },
+                                    {
+                                        "key": "David Ackerman",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "chang",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Changhyun Lee",
+                                        "values": 20
+                                    },
+                                    {
+                                        "key": "David Ackerman",
+                                        "values": 5
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 20
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "David Ackerman",
+                                        "values": 10
+                                    },
+                                    {
+                                        "key": "Changhyun Lee",
+                                        "values": 18
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 20
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Buzzfeed-Cloud",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 5
+                                    },
+                                    {
+                                        "key": "Alan Chen",
+                                        "values": 5
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "CalendarWebApplication",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "KenChan23",
+                                        "values": 1
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ChatClient-SPA",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "civic-graph",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "azure-workingBranch",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 9
+                                    },
+                                    {
+                                        "key": "andela-koni",
+                                        "values": 15
+                                    },
+                                    {
+                                        "key": "Charles F. Munat",
+                                        "values": 33
+                                    },
+                                    {
+                                        "key": "Kehinde",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "backend-refactor",
+                            "children": [
+                                [
+                                    {
+                                        "key": "andela-koni",
+                                        "values": 30
+                                    },
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 27
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 20
+                                    },
+                                    {
+                                        "key": "Ady Sevy",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "SugarOverflow",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "d3-view",
+                            "children": [
+                                [
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 14
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 15
+                                    },
+                                    {
+                                        "key": "Ady Sevy",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "SugarOverflow",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "front-end",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Tristan Siegel",
+                                        "values": 10
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 58
+                                    },
+                                    {
+                                        "key": "Ady Sevy",
+                                        "values": 1
+                                    },
+                                    {
+                                        "key": "Microsoft NY",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "mapview",
+                            "children": [
+                                [
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 41
+                                    },
+                                    {
+                                        "key": "andela-koni",
+                                        "values": 25
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 20
+                                    },
+                                    {
+                                        "key": "Ady Sevy",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "SugarOverflow",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Rasmi",
+                                        "values": 2
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 65
+                                    },
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 2
+                                    },
+                                    {
+                                        "key": "Fatima Sarah Khalid",
+                                        "values": 6
+                                    },
+                                    {
+                                        "key": "SugarOverflow",
+                                        "values": 15
+                                    },
+                                    {
+                                        "key": "Ady Sevy",
+                                        "values": 4
+                                    },
+                                    {
+                                        "key": "John Paul Farmer",
+                                        "values": 5
+                                    },
+                                    {
+                                        "key": "adysevy",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "new-schema",
+                            "children": [
+                                [
+                                    {
+                                        "key": "andela-koni",
+                                        "values": 12
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 16
+                                    },
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 9
+                                    },
+                                    {
+                                        "key": "Ady Sevy",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "SugarOverflow",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "test-environment",
+                            "children": [
+                                [
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 49
+                                    },
+                                    {
+                                        "key": "andela-koni",
+                                        "values": 25
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 20
+                                    },
+                                    {
+                                        "key": "Ady Sevy",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "SugarOverflow",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "workingBranch",
+                            "children": [
+                                [
+                                    {
+                                        "key": "andela-koni",
+                                        "values": 19
+                                    },
+                                    {
+                                        "key": "andela-ajayeoba",
+                                        "values": 11
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 2
+                                    },
+                                    {
+                                        "key": "Charles F. Munat",
+                                        "values": 33
+                                    },
+                                    {
+                                        "key": "Kehinde",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Collaboration-Viz",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 30
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "FAA-Visualization",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 60
+                                    },
+                                    {
+                                        "key": "Efrayim Zitron",
+                                        "values": 4
+                                    },
+                                    {
+                                        "key": "Diviteja Guntamadugu",
+                                        "values": 3
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "IonicApp",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 3
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "JS-MapReduce",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 28
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "MarketDemo",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 8
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "MediaPlayer",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 8
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mongoose-Experiment",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "NYCPreK",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Alan",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "OpenCV-Camera",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 8
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "PersonalWebsite",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "gh-pages",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 3
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Pinterest",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 4
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Python-Data",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 2
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "RC5-Nexys3",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "RealTimeFirebase",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 8
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "SharedMarkdown",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 2
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "STM32F4-ClockDisplay",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "TernaryHeap",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "KenChan23",
+                                        "values": 3
+                                    },
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ToDoListApp",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "KACVirtual",
+                                        "values": 1
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "VideoChatApp",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 7
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "WebScraper",
+                    "type": "repository",
+                    "children": [
+                        {
+                            "name": "master",
+                            "children": [
+                                [
+                                    {
+                                        "key": "Ken Chan",
+                                        "values": 2
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
