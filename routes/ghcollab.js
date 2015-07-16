@@ -19,6 +19,8 @@ var d3 = require("d3");
   
   /repos/:owner/:repo/branches/:branch
 
+  Need a loading component.
+  Turn this into a library.
 */
 
 (function(){
@@ -40,7 +42,7 @@ var d3 = require("d3");
         visualization_data.children[0].children.push({
           name: r.name,
           type: "repository",
-          children: null
+          children: []
         });
         getBranches(r.name, username, callback);
       });
@@ -93,34 +95,49 @@ var d3 = require("d3");
         // res.render('account', { info: 'Nothing Found Here.'});
       }
 
+      // console.log("Number of Repos: ", results.length);
+
       var userRepos = visualization_data.children[0].children;
+
+      // console.log("Number of Repos: ", userRepos.length);
 
       async.map(results, function(repo, callback){
         //  Need to set the children of each user's repository to the contributors and their number of contributions. (Assumption: none of the contributors share the same name...)
         var repository = repo[0].repository;
 
         var contributions = d3.nest()
-                            .key(function(d){
-                              return d.commit.committer.name;
-                            })
-                            .rollup(function(v){
-                              return v.length;
-                            })
-                            .entries(repo);
+                              .key(function(d){
+                                return d.commit.committer.name;
+                              })
+                              .rollup(function(v){
+                                return v.length;
+                              })
+                              .entries(repo);
 
-        var specificRepo = userRepos.filter(function(d){
+        console.log('\n\n\nContributions\n\n\n', contributions);
+
+        var selectedRepo = visualization_data.children[0].children.filter(function(d){
+            // console.log(d.name === repository);
             return d.name === repository; 
         });
 
-        specificRepo.children = contributions;
+        console.log('SelectedRepo:', selectedRepo);
+
+        selectedRepo[0].children.push(contributions);
+
+        // if(specificRepo.children)
+        //   specificRepo.children.push(contributions);
+        // else
+        //   specificRepo.children = contributions;
+
+        // console.log(visualization_data.children[0].children);
 
         callback(null, repo);
 
       }, function(err, addedData){
-        console.log('\n\n\n Contributor information \n\n\n', contributors);
+        console.log('\n\n\n Contributor information \n\n\n', visualization_data.children[0]);
         //  Need to process the results before rendering the webpage with JSON.
         res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(visualization_data, null, '\t') });
-        callback(null, addedData);
       });
 
     });
@@ -179,6 +196,7 @@ var d3 = require("d3");
               //  Must send back both contributors and results.
               async.map(data, function(d, callback){
                   d.repository = repository;
+                  d.branch = branch;
                   callback(null, d);
                 }, function(err, newResults){
                   callback(null, newResults);
