@@ -27,7 +27,9 @@ var d3 = require("d3");
   var github;
   //  internal dictionary for side-panel view
   var contributors = {};
-  var visualization_data = {};
+  var visualization_data = {
+                            children: []
+                           };
 
   //  Helper function to process items asynchronously.
   var processRepos = function(repos, username, res){
@@ -121,8 +123,6 @@ var d3 = require("d3");
                               })
                               .entries(repo);
 
-        console.log('\n\n\nContributions\n\n\n', contributions);
-
         var selectedRepo = visualization_data.children.filter(function(d){
             return d.name === repository; 
         });
@@ -130,8 +130,6 @@ var d3 = require("d3");
         var selectedBranch = selectedRepo[0].children.filter(function(d){
           return d.name === branch;
         });
-
-        console.log('SelectedBranch:', selectedBranch);
 
         selectedBranch[0].children = contributions;
 
@@ -145,7 +143,6 @@ var d3 = require("d3");
         callback(null, repo);
 
       }, function(err, addedData){
-        console.log('\n\n\n Contributor information \n\n\n', visualization_data);
         //  Need to process the results before rendering the webpage with JSON.
         res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(visualization_data, null, '\t') });
       });
@@ -255,15 +252,11 @@ var d3 = require("d3");
       }
     });
 
-    this.name = body.name;
-    this.type = body.type;
-    this.username = body.username;
+    this.name = visualization_data.name = body.name;
+    this.type = visualization_data.type = body.type;
+    this.username = visualization_data.username = body.username;
     this.accessToken = body.accessToken;
     this.res = res;
-
-    visualization_data.name = body.name;
-    visualization_data.username = body.username;
-    visualization_data.children =  [];
   };
 
   //  Authenticate the user.
