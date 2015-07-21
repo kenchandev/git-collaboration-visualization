@@ -142,11 +142,11 @@ var fs = require('fs');
         var endTime = new Date().getTime();
         console.log('Elapsed Time: ', endTime - startTime);
 
-        fs.writeFile('test.json', JSON.stringify(results, null, '\t'), function(err){
-          if(err) throw err;
-          console.log('It\'s saved!');
+        // fs.writeFile('test.json', JSON.stringify(results, null, '\t'), function(err){
+        //   if(err) throw err;
+        //   console.log('It\'s saved!');
           res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(visualization_data, null, '\t') });
-        });
+        // });
       }
     );
   };
