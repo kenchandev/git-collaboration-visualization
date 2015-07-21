@@ -3,6 +3,13 @@ html{
 }
 
 body{
+  background-image: url('../img/network-viz-greyscale.png');
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
   height: 100%;
   margin: 0px;
 }
@@ -13,6 +20,8 @@ body{
 }
 
 .login{
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 16px rgba(255,255,255,0.5);
   display: inline-block;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
@@ -29,4 +38,13 @@ body{
 .github-auth{
   display: inline-block;
   margin-top: 10px;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+
+.github-auth:hover{
+  background-color: rgba(225, 225, 225, 0.8);
 }
