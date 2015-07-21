@@ -12,13 +12,20 @@ var GitHubApi = require('github');
 var d3 = require('d3');
 var _ = require('lodash');
 
+var fs = require('fs');
+
 //  Self-invoke anonymous function 
 (function(){
   var startTime;
 
   var github;
   var contributors = {};  //  Internal dictionary to store data for side-panel.
-  var visualization_data = { children: [] };
+  var visualization_data = { 
+                             name: null,
+                             username: null,
+                             type: 'User',
+                             children: [] 
+                           };
 
   var GitHubCollaborations = function(body, res){
     startTime = new Date().getTime();
@@ -135,7 +142,11 @@ var _ = require('lodash');
         var endTime = new Date().getTime();
         console.log('Elapsed Time: ', endTime - startTime);
 
-        res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(results, null, '\t') });
+        fs.writeFile('test.json', JSON.stringify(results, null, '\t'), function(err){
+          if(err) throw err;
+          console.log('It\'s saved!');
+          res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(visualization_data, null, '\t') });
+        });
       }
     );
   };

@@ -14,7 +14,7 @@ mongoose.connect('mongodb://' + 'root' + ':' + 'github-network' + '@ds045511.mon
 
 var app = express();
 
-app.configure(function() {
+app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.use(express.logger());
@@ -31,16 +31,16 @@ app.configure(function() {
 app.get('/data', data.retrieve);
 
 // seralize and deseralize
-passport.serializeUser(function(user, done) {
-    console.log('serializeUser: ' + user._id)
-    done(null, user._id);
+passport.serializeUser(function(user, done){
+  console.log('serializeUser: ' + user._id)
+  done(null, user._id);
 });
-passport.deserializeUser(function(id, done) {
-    User.findById(id, function(err, user){
-        console.log(user);
-        if(!err) done(null, user);
-        else done(err, null);
-    })
+passport.deserializeUser(function(id, done){
+  User.findById(id, function(err, user){
+    console.log(user);
+    if(!err) done(null, user);
+    else done(err, null);
+  })
 });
 
 // routes
@@ -49,22 +49,22 @@ app.get('/viz', function(req, res){
   res.sendfile('views/visualization.html');
 });
 app.get('/account', ensureAuthenticated, function(req, res){
-  User.findById(req.session.passport.user, function(err, user) {
+  User.findById(req.session.passport.user, function(err, user){
     if(err) { 
       console.log(err); 
     } else {
       res.render('account', { user: user});
     }
-  })
-})
+  });
+});
 app.get('/auth/github',
   passport.authenticate('github'),
-  function(req, res){
-  });
+  function(req, res){}
+);
 app.get('/auth/github/callback', 
   passport.authenticate('github', { failureRedirect: '/' }),
   index.handleGitHubInfo
-  );
+);
 app.get('/logout', function(req, res){
   req.logout();
   res.redirect('/');
@@ -75,9 +75,9 @@ var port = process.env.PORT || 1337;
 app.listen(port);
 
 // test authentication
-function ensureAuthenticated(req, res, next) {
+function ensureAuthenticated(req, res, next){
   if (req.isAuthenticated()) { return next(); }
   res.redirect('/');
-}
+};
 
 module.exports = app
