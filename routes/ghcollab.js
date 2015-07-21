@@ -81,7 +81,7 @@ var fs = require('fs');
       github.repos.getFromUser({
         user: this.username
       }, function(err, repos){
-        if(err) throw err;
+        if(err) console.log(err);
         pushAndProcess(repos, this.username, this.res);
       }.bind(this));
     }
@@ -89,7 +89,7 @@ var fs = require('fs');
       github.repos.getFromOrg({
         org: this.username
       }, function(err, repos){
-        if(err) throw err;
+        if(err) console.log(err);
         pushAndProcess(repos, this.username, this.res);
       }.bind(this));
     }
@@ -136,16 +136,19 @@ var fs = require('fs');
         }
       ], 
       function(err, results){
-        //  visualization_data
-        //  results
-        //  contributors
+        //  visualization_data      ->  test.json
+        //  results                 ->  example.json
+        //  contributors            ->  viz.json
         var endTime = new Date().getTime();
         console.log('Elapsed Time: ', endTime - startTime);
+
+        //  Build an API...
 
         // fs.writeFile('test.json', JSON.stringify(results, null, '\t'), function(err){
         //   if(err) throw err;
         //   console.log('It\'s saved!');
-          res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(visualization_data, null, '\t') });
+          res.render('account', {title: 'GitHub Visualization', info: JSON.stringify(contributors, null, '\t') });
+          // res.sendfile(__dirname + '../views/visualization.html');
         // });
       }
     );
@@ -221,12 +224,14 @@ var fs = require('fs');
     async.parallel(asyncBranches, function(err, results){
       if(err) console.log(err);
 
+      console.log('\n\n\n\n\nResults\n\n\n\n', results);
+
       async.map(results, function(repo, cb){
         var repository = repo[0].repository;
         var branch = repo[0].branch;
         var contributions = d3.nest()
                               .key(function(d){
-                                return d.commit.committer.name;
+                                return d.commit.author.name;
                               })
                               .rollup(function(v){
                                 return v.length;
@@ -259,59 +264,110 @@ var fs = require('fs');
         until: new Date().toISOString(),
         per_page: 100   //  Last 100 commits.
       }, function(err, data){
-        if(err){
-          throw err;
-        }
-        else{
-          // console.log("\n\n\n This is some data. \n\n\n\n", data[0].commit);
-          //  Must compile a list of contributors.
-          async.each(data, function(d, cb){
-            var email = d.commit.committer.email;
-            if(!(email in contributors)){
-              contributors[email] = { 
-                                      repos: {}, 
-                                      avatar_url: ((d.author !== null) ? d.author.avatar_url : null), 
-                                      login: ((d.author !== null) ? d.author.login : null),
-                                      name: d.commit.committer.name
-                                    };
+        if(err) console.log(err);
+        //  Must compile a list of contributors.
+        async.each(data, function(d, cb){
+          //  E-mail addresses are unique. Hence, use as keys for dictionary.
+          var email = d.commit.author.email;
+          //  Make a new entry if the user doesn't exist within the dictionary of users.
+
+          if(!(email in contributors)){
+            contributors[email] = { 
+                                    repos: {}, 
+                                    avatar_url: null,
+                                    followers: null, 
+                                    following: null,
+                                    location: null,
+                                    email: null,
+                                    company: null,
+                                    html_url: null,
+                                    followers_url: null,
+                                    subscriptions_url: null,
+                                    organizations_url: null,
+                                    repos_url: null,
+                                    type: null,
+                                    login: null,
+                                    name: d.commit.author.name
+                                  };
+
+            var contributor = contributors[email];
+            var author = d.author;
+
+            if(author !== null)
+            {
+              contributor.avatar_url = author.avatar_url;
+              contributor.html_url = author.html_url;
+              contributor.followers_url = author.followers_url;
+              contributor.subscriptions_url = author.subscriptions_url;
+              contributor.organizations_url = author.organizations_url;
+              contributor.repos_url = author.repos_url;
+              contributor.type = author.type;
+              contributor.login = author.login;
             }
-            if(email in contributors && repo in contributors[email]["repos"]){
-              var targetRepo = contributors[email]["repos"][repo];
-              targetRepo["commits"].push({
-                branch: branch,
-                message: d.commit.message,
-                date: d.commit.committer.date
-              });
-              targetRepo["count"]++;
-            }
-            else{
-              contributors[email]["repos"][repo] = { 
-                                                     commits: [{
-                                                       branch: branch,
-                                                       message: d.commit.message,
-                                                       date: d.commit.committer.date
-                                                     }],
-                                                     count: 1
-                                                   };
-            }
-            cb();
-          }, function(err){
-              if(err){
-                throw err;
-              }
-              else{
-                //  Must send back both contributors and results.
-                async.map(data, function(d, callback){
-                    d.repository = repo;
-                    d.branch = branch;
-                    callback(null, d);
-                  }, function(err, info){
-                    callback(null, info);
+          }
+          if(email in contributors && repo in contributors[email]["repos"]){
+            var targetRepo = contributors[email]["repos"][repo];
+            targetRepo["commits"].push({
+              branch: branch,
+              message: d.commit.message,
+              date: d.commit.committer.date
+            });
+            targetRepo["count"]++;
+          }
+          else{
+            contributors[email]["repos"][repo] = { 
+                                                   commits: [{
+                                                     branch: branch,
+                                                     message: d.commit.message,
+                                                     date: d.commit.author.date
+                                                   }],
+                                                   count: 1
+                                                 };
+          }
+          cb();       
+        }, function(err){
+            if(err) console.log(err);
+
+            var asyncFunctions = [];
+
+            _.forEach(contributors, function(value, key){
+              var contributor = contributors[key];
+
+              if(contributor.login){
+                asyncFunctions.push(function(cb){
+                  github.user.getFrom({
+                    user: contributor.login
+                  }, function(err, user){
+                    if(err) console.log(err);
+                    // console.log(user);
+                    contributor.followers = user.followers;
+                    contributor.following = user.following;
+                    contributor.location = user.location;
+                    contributor.email = user.email;
+                    contributor.company = user.company;
+                    cb(null, 'Got info on followers, location, etc.');
+                  });
                 });
               }
-            }
-          );
-        }
+            });
+
+            asyncFunctions.push(function(outerCB){
+              //  Must send back both contributors and results.
+              async.map(data, function(d, cb){
+                  d.repository = repo;
+                  d.branch = branch;
+                  cb(null, d);
+                }, function(err, info){
+                  outerCB(null, info);
+              });
+            });
+
+            async.parallel(asyncFunctions, function(err, results){
+              console.log(results);
+              callback(null, results[results.length - 1]);
+            });
+          }
+        );
       });
   };
 
@@ -326,7 +382,7 @@ var fs = require('fs');
             user: username,
             repo: repo
           }, function(err, results){
-            if(err) throw err;
+            if(err) console.log(err);
             findRepo(repo, function(selectedRepo){
               selectedRepo.total_watchers = results.length;
               cb(null, 'Got watchers count.');  
@@ -340,7 +396,7 @@ var fs = require('fs');
             user: username,
             repo: repo
           }, function(err, results){
-            if(err) throw err;
+            if(err) console.log(err);
             findRepo(repo, function(selectedRepo){
               selectedRepo.total_stargazers = results.length;
               cb(null, 'Got stargazers count.');  
@@ -355,7 +411,7 @@ var fs = require('fs');
             user: username,
             repo: repo
           }, function(err, results){
-            if(err) throw err;
+            if(err) console.log(err);
             findRepo(repo, function(selectedRepo){
               selectedRepo.total_issues = results.length;
               cb(null, 'Got issues count.');  
@@ -369,7 +425,7 @@ var fs = require('fs');
             user: username,
             repo: repo
           }, function(err, results){
-            if(err) throw err;
+            if(err) console.log(err);
             findRepo(repo, function(selectedRepo){
               selectedRepo.total_forks = results.length;
               cb(null, 'Got forks count.');  
