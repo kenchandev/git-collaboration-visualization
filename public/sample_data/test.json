@@ -1,10 +1,13 @@
 {
-    "name": "Ken Chan",
-    "username": "KenChan23",
     "children": [
         {
             "name": "AnnotationWebTool",
             "type": "repository",
+            "total_commits": 113,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "gh-pages",
@@ -38,6 +41,11 @@
         {
             "name": "Bike-Sync",
             "type": "repository",
+            "total_commits": 128,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "androidMusicPlayer",
@@ -99,6 +107,11 @@
         {
             "name": "Buzzfeed-Cloud",
             "type": "repository",
+            "total_commits": 10,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -118,6 +131,11 @@
         {
             "name": "CalendarWebApplication",
             "type": "repository",
+            "total_commits": 2,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -137,6 +155,11 @@
         {
             "name": "ChatClient-SPA",
             "type": "repository",
+            "total_commits": 1,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -152,6 +175,11 @@
         {
             "name": "civic-graph",
             "type": "repository",
+            "total_commits": 640,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "azure-workingBranch",
@@ -387,13 +415,18 @@
         {
             "name": "Collaboration-Viz",
             "type": "repository",
+            "total_commits": 34,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
                     "children": [
                         {
                             "key": "Ken Chan",
-                            "values": 32
+                            "values": 34
                         }
                     ]
                 }
@@ -402,6 +435,11 @@
         {
             "name": "FAA-Visualization",
             "type": "repository",
+            "total_commits": 67,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -425,6 +463,11 @@
         {
             "name": "IonicApp",
             "type": "repository",
+            "total_commits": 3,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -440,6 +483,11 @@
         {
             "name": "JS-MapReduce",
             "type": "repository",
+            "total_commits": 28,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -455,6 +503,11 @@
         {
             "name": "MarketDemo",
             "type": "repository",
+            "total_commits": 8,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -470,6 +523,11 @@
         {
             "name": "MediaPlayer",
             "type": "repository",
+            "total_commits": 8,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -485,6 +543,11 @@
         {
             "name": "Mongoose-Experiment",
             "type": "repository",
+            "total_commits": 1,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -500,6 +563,11 @@
         {
             "name": "NYCPreK",
             "type": "repository",
+            "total_commits": 4,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -519,6 +587,11 @@
         {
             "name": "OpenCV-Camera",
             "type": "repository",
+            "total_commits": 8,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -534,6 +607,11 @@
         {
             "name": "PersonalWebsite",
             "type": "repository",
+            "total_commits": 4,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "gh-pages",
@@ -558,6 +636,11 @@
         {
             "name": "Pinterest",
             "type": "repository",
+            "total_commits": 4,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -573,6 +656,11 @@
         {
             "name": "Python-Data",
             "type": "repository",
+            "total_commits": 2,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -588,6 +676,11 @@
         {
             "name": "RC5-Nexys3",
             "type": "repository",
+            "total_commits": 1,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -603,6 +696,11 @@
         {
             "name": "RealTimeFirebase",
             "type": "repository",
+            "total_commits": 8,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -618,6 +716,11 @@
         {
             "name": "SharedMarkdown",
             "type": "repository",
+            "total_commits": 2,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -633,6 +736,11 @@
         {
             "name": "STM32F4-ClockDisplay",
             "type": "repository",
+            "total_commits": 1,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -648,6 +756,11 @@
         {
             "name": "TernaryHeap",
             "type": "repository",
+            "total_commits": 4,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -667,6 +780,11 @@
         {
             "name": "ToDoListApp",
             "type": "repository",
+            "total_commits": 1,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -682,6 +800,11 @@
         {
             "name": "VideoChatApp",
             "type": "repository",
+            "total_commits": 7,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -697,6 +820,11 @@
         {
             "name": "WebScraper",
             "type": "repository",
+            "total_commits": 2,
+            "total_watchers": 0,
+            "total_stargazers": 0,
+            "total_issues": 0,
+            "total_forks": 0,
             "children": [
                 {
                     "name": "master",
@@ -709,5 +837,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "name": "Ken Chan",
+    "type": "User",
+    "username": "KenChan23"
 }
