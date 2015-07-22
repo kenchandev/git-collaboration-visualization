@@ -263,8 +263,14 @@
             }
         },
         "avatar_url": null,
+        "followers": null,
+        "following": null,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": null,
         "followers_url": null,
+        "subscriptions_url": null,
         "organizations_url": null,
         "repos_url": null,
         "type": null,
@@ -360,8 +366,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/1013729?v=3",
+        "followers": 1,
+        "following": 0,
+        "location": "New York City",
+        "email": "doa209@nyu.edu",
+        "company": null,
         "html_url": "https://github.com/daack93",
         "followers_url": "https://api.github.com/users/daack93/followers",
+        "subscriptions_url": "https://api.github.com/users/daack93/subscriptions",
         "organizations_url": "https://api.github.com/users/daack93/orgs",
         "repos_url": "https://api.github.com/users/daack93/repos",
         "type": "User",
@@ -1378,21 +1390,6 @@
                         "date": "2015-04-02T21:36:48Z"
                     },
                     {
-                        "branch": "azure-workingBranch",
-                        "message": "new files",
-                        "date": "2015-06-03T23:03:18Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "added bin files",
-                        "date": "2015-06-03T16:30:31Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "added bin files",
-                        "date": "2015-06-03T15:40:15Z"
-                    },
-                    {
                         "branch": "backend-refactor",
                         "message": "removed bing maps modules",
                         "date": "2015-04-24T17:21:00Z"
@@ -1491,6 +1488,21 @@
                         "branch": "backend-refactor",
                         "message": "initial commit to empty test-environment branch",
                         "date": "2015-04-02T21:36:48Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "new files",
+                        "date": "2015-06-03T23:03:18Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "added bin files",
+                        "date": "2015-06-03T16:30:31Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "added bin files",
+                        "date": "2015-06-03T15:40:15Z"
                     },
                     {
                         "branch": "front-end",
@@ -1963,6 +1975,106 @@
                         "date": "2015-04-02T21:36:48Z"
                     },
                     {
+                        "branch": "test-environment",
+                        "message": "removed bing maps modules",
+                        "date": "2015-04-24T17:21:00Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "resolving azure issue",
+                        "date": "2015-04-24T16:45:44Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "modified web.config and app.js file",
+                        "date": "2015-04-24T16:23:42Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "modified web.config file",
+                        "date": "2015-04-24T16:10:32Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "improved the runtime of renderNew.js",
+                        "date": "2015-04-21T19:48:50Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "fixed operations",
+                        "date": "2015-04-16T20:48:20Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "fixed operations",
+                        "date": "2015-04-16T20:47:31Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "fixed () error",
+                        "date": "2015-04-14T18:18:08Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "modified database.js file to reflect updates to id values within operations table",
+                        "date": "2015-04-14T18:08:00Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "removed unused packages",
+                        "date": "2015-04-03T19:51:56Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "Merge branch 'test-environment' of https://github.com/microsoftny/civic-graph into test-environment",
+                        "date": "2015-04-03T19:45:34Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "modified several files",
+                        "date": "2015-04-03T19:45:03Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "added screenshot",
+                        "date": "2015-04-03T18:03:57Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "Merge branch 'test-environment' of https://github.com/microsoftny/civic-graph into test-environment",
+                        "date": "2015-04-03T17:50:44Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "modified credentials file",
+                        "date": "2015-04-03T17:49:30Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "removed text files",
+                        "date": "2015-04-03T15:34:38Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "modified credentials file",
+                        "date": "2015-04-03T15:33:00Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "modified mysqllocal file",
+                        "date": "2015-04-02T23:17:19Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "updated README.md",
+                        "date": "2015-04-02T21:38:49Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "initial commit to empty test-environment branch",
+                        "date": "2015-04-02T21:36:48Z"
+                    },
+                    {
                         "branch": "master",
                         "message": "removed unnecessary files/folders",
                         "date": "2015-06-05T21:14:04Z"
@@ -2288,106 +2400,6 @@
                         "date": "2015-02-17T07:54:56Z"
                     },
                     {
-                        "branch": "test-environment",
-                        "message": "removed bing maps modules",
-                        "date": "2015-04-24T17:21:00Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "resolving azure issue",
-                        "date": "2015-04-24T16:45:44Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "modified web.config and app.js file",
-                        "date": "2015-04-24T16:23:42Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "modified web.config file",
-                        "date": "2015-04-24T16:10:32Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "improved the runtime of renderNew.js",
-                        "date": "2015-04-21T19:48:50Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "fixed operations",
-                        "date": "2015-04-16T20:48:20Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "fixed operations",
-                        "date": "2015-04-16T20:47:31Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "fixed () error",
-                        "date": "2015-04-14T18:18:08Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "modified database.js file to reflect updates to id values within operations table",
-                        "date": "2015-04-14T18:08:00Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "removed unused packages",
-                        "date": "2015-04-03T19:51:56Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "Merge branch 'test-environment' of https://github.com/microsoftny/civic-graph into test-environment",
-                        "date": "2015-04-03T19:45:34Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "modified several files",
-                        "date": "2015-04-03T19:45:03Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "added screenshot",
-                        "date": "2015-04-03T18:03:57Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "Merge branch 'test-environment' of https://github.com/microsoftny/civic-graph into test-environment",
-                        "date": "2015-04-03T17:50:44Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "modified credentials file",
-                        "date": "2015-04-03T17:49:30Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "removed text files",
-                        "date": "2015-04-03T15:34:38Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "modified credentials file",
-                        "date": "2015-04-03T15:33:00Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "modified mysqllocal file",
-                        "date": "2015-04-02T23:17:19Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "updated README.md",
-                        "date": "2015-04-02T21:38:49Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "initial commit to empty test-environment branch",
-                        "date": "2015-04-02T21:36:48Z"
-                    },
-                    {
                         "branch": "workingBranch",
                         "message": "added bin files",
                         "date": "2015-06-03T16:30:31Z"
@@ -2402,6 +2414,21 @@
             },
             "Collaboration-Viz": {
                 "commits": [
+                    {
+                        "branch": "master",
+                        "message": "finished processing info",
+                        "date": "2015-07-21T22:35:36Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added new test.json",
+                        "date": "2015-07-21T18:35:10Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added new test.json",
+                        "date": "2015-07-21T18:27:01Z"
+                    },
                     {
                         "branch": "master",
                         "message": "added script",
@@ -2583,7 +2610,7 @@
                         "date": "2015-06-11T15:30:51Z"
                     }
                 ],
-                "count": 36
+                "count": 39
             },
             "IonicApp": {
                 "commits": [
@@ -2604,151 +2631,6 @@
                     }
                 ],
                 "count": 3
-            },
-            "JS-MapReduce": {
-                "commits": [
-                    {
-                        "branch": "master",
-                        "message": "modified readme to update current progress",
-                        "date": "2015-07-04T03:49:06Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "removed some additional comments",
-                        "date": "2015-07-02T04:59:47Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "second revision on mvc",
-                        "date": "2015-07-02T03:44:10Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "refined example",
-                        "date": "2015-07-02T03:41:49Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added controllers and demo",
-                        "date": "2015-07-02T03:35:33Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added views",
-                        "date": "2015-07-02T03:28:50Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added mvc example",
-                        "date": "2015-07-02T03:15:13Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added backbone and angular folders",
-                        "date": "2015-07-01T03:31:23Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "modified readme",
-                        "date": "2015-06-30T03:56:33Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "implemented set and remove functions",
-                        "date": "2015-06-29T03:24:58Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "wrote definitions and initializations",
-                        "date": "2015-06-29T02:55:29Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "Added dictionary folder",
-                        "date": "2015-06-29T02:51:56Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "modified readme",
-                        "date": "2015-06-28T03:39:25Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "modified readme",
-                        "date": "2015-06-28T03:38:36Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "modified readme",
-                        "date": "2015-06-28T03:37:22Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "modified readme",
-                        "date": "2015-06-28T03:36:29Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "modified readme",
-                        "date": "2015-06-28T03:30:08Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added readme",
-                        "date": "2015-06-27T03:34:22Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added a set data structure",
-                        "date": "2015-06-26T03:42:40Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added linked list implementation",
-                        "date": "2015-06-25T02:35:58Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added singly linked list code",
-                        "date": "2015-06-25T02:24:13Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added stack implementation",
-                        "date": "2015-06-25T01:14:38Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added search array files",
-                        "date": "2015-06-22T22:19:17Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added search array files",
-                        "date": "2015-06-22T22:02:54Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added aggregate array files",
-                        "date": "2015-06-22T21:57:02Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added string_split array files",
-                        "date": "2015-06-22T21:39:22Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added access_write array files",
-                        "date": "2015-06-22T21:32:14Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added create array files",
-                        "date": "2015-06-22T21:25:11Z"
-                    }
-                ],
-                "count": 28
             },
             "FAA-Visualization": {
                 "commits": [
@@ -3100,6 +2982,151 @@
                 ],
                 "count": 8
             },
+            "JS-MapReduce": {
+                "commits": [
+                    {
+                        "branch": "master",
+                        "message": "modified readme to update current progress",
+                        "date": "2015-07-04T03:49:06Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "removed some additional comments",
+                        "date": "2015-07-02T04:59:47Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "second revision on mvc",
+                        "date": "2015-07-02T03:44:10Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "refined example",
+                        "date": "2015-07-02T03:41:49Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added controllers and demo",
+                        "date": "2015-07-02T03:35:33Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added views",
+                        "date": "2015-07-02T03:28:50Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added mvc example",
+                        "date": "2015-07-02T03:15:13Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added backbone and angular folders",
+                        "date": "2015-07-01T03:31:23Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "modified readme",
+                        "date": "2015-06-30T03:56:33Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "implemented set and remove functions",
+                        "date": "2015-06-29T03:24:58Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "wrote definitions and initializations",
+                        "date": "2015-06-29T02:55:29Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "Added dictionary folder",
+                        "date": "2015-06-29T02:51:56Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "modified readme",
+                        "date": "2015-06-28T03:39:25Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "modified readme",
+                        "date": "2015-06-28T03:38:36Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "modified readme",
+                        "date": "2015-06-28T03:37:22Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "modified readme",
+                        "date": "2015-06-28T03:36:29Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "modified readme",
+                        "date": "2015-06-28T03:30:08Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added readme",
+                        "date": "2015-06-27T03:34:22Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added a set data structure",
+                        "date": "2015-06-26T03:42:40Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added linked list implementation",
+                        "date": "2015-06-25T02:35:58Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added singly linked list code",
+                        "date": "2015-06-25T02:24:13Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added stack implementation",
+                        "date": "2015-06-25T01:14:38Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added search array files",
+                        "date": "2015-06-22T22:19:17Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added search array files",
+                        "date": "2015-06-22T22:02:54Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added aggregate array files",
+                        "date": "2015-06-22T21:57:02Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added string_split array files",
+                        "date": "2015-06-22T21:39:22Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added access_write array files",
+                        "date": "2015-06-22T21:32:14Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "added create array files",
+                        "date": "2015-06-22T21:25:11Z"
+                    }
+                ],
+                "count": 28
+            },
             "MediaPlayer": {
                 "commits": [
                     {
@@ -3165,31 +3192,6 @@
                 ],
                 "count": 1
             },
-            "PersonalWebsite": {
-                "commits": [
-                    {
-                        "branch": "gh-pages",
-                        "message": "Initial commit",
-                        "date": "2014-10-06T02:44:50Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "Merge branch 'master' of https://github.com/KenChan23/mygithubpage\n\nMerge for initial commit.",
-                        "date": "2015-01-11T07:54:43Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "first commit",
-                        "date": "2015-01-11T07:53:41Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "Initial commit",
-                        "date": "2014-10-06T02:44:50Z"
-                    }
-                ],
-                "count": 4
-            },
             "OpenCV-Camera": {
                 "commits": [
                     {
@@ -3235,6 +3237,31 @@
                 ],
                 "count": 8
             },
+            "PersonalWebsite": {
+                "commits": [
+                    {
+                        "branch": "gh-pages",
+                        "message": "Initial commit",
+                        "date": "2014-10-06T02:44:50Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "Merge branch 'master' of https://github.com/KenChan23/mygithubpage\n\nMerge for initial commit.",
+                        "date": "2015-01-11T07:54:43Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "first commit",
+                        "date": "2015-01-11T07:53:41Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "Initial commit",
+                        "date": "2014-10-06T02:44:50Z"
+                    }
+                ],
+                "count": 4
+            },
             "Pinterest": {
                 "commits": [
                     {
@@ -3259,21 +3286,6 @@
                     }
                 ],
                 "count": 4
-            },
-            "Python-Data": {
-                "commits": [
-                    {
-                        "branch": "master",
-                        "message": "added elasticsearch + wikipedia example",
-                        "date": "2015-04-23T23:55:53Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "initial commit",
-                        "date": "2015-04-05T22:06:03Z"
-                    }
-                ],
-                "count": 2
             },
             "RC5-Nexys3": {
                 "commits": [
@@ -3345,52 +3357,17 @@
                 ],
                 "count": 2
             },
-            "TernaryHeap": {
+            "Python-Data": {
                 "commits": [
                     {
                         "branch": "master",
-                        "message": "Final Commit",
-                        "date": "2014-02-06T06:26:40Z"
+                        "message": "added elasticsearch + wikipedia example",
+                        "date": "2015-04-23T23:55:53Z"
                     },
                     {
                         "branch": "master",
-                        "message": "Update TT_PriorityQueue_Main.cpp",
-                        "date": "2014-02-06T06:26:12Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "Create README.md",
-                        "date": "2014-02-06T06:22:34Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "Final Commit",
-                        "date": "2014-02-06T06:18:40Z"
-                    }
-                ],
-                "count": 4
-            },
-            "STM32F4-ClockDisplay": {
-                "commits": [
-                    {
-                        "branch": "master",
-                        "message": "first commit",
-                        "date": "2014-12-16T04:38:54Z"
-                    }
-                ],
-                "count": 1
-            },
-            "WebScraper": {
-                "commits": [
-                    {
-                        "branch": "master",
-                        "message": "add README",
-                        "date": "2015-01-11T07:48:09Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "first commit",
-                        "date": "2015-01-11T07:46:24Z"
+                        "message": "initial commit",
+                        "date": "2015-04-05T22:06:03Z"
                     }
                 ],
                 "count": 2
@@ -3434,11 +3411,67 @@
                     }
                 ],
                 "count": 7
+            },
+            "STM32F4-ClockDisplay": {
+                "commits": [
+                    {
+                        "branch": "master",
+                        "message": "first commit",
+                        "date": "2014-12-16T04:38:54Z"
+                    }
+                ],
+                "count": 1
+            },
+            "TernaryHeap": {
+                "commits": [
+                    {
+                        "branch": "master",
+                        "message": "Final Commit",
+                        "date": "2014-02-06T06:26:40Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "Update TT_PriorityQueue_Main.cpp",
+                        "date": "2014-02-06T06:26:12Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "Create README.md",
+                        "date": "2014-02-06T06:22:34Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "Final Commit",
+                        "date": "2014-02-06T06:18:40Z"
+                    }
+                ],
+                "count": 4
+            },
+            "WebScraper": {
+                "commits": [
+                    {
+                        "branch": "master",
+                        "message": "add README",
+                        "date": "2015-01-11T07:48:09Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "first commit",
+                        "date": "2015-01-11T07:46:24Z"
+                    }
+                ],
+                "count": 2
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/4991363?v=3",
+        "followers": 7,
+        "following": 6,
+        "location": "Brooklyn, New York",
+        "email": null,
+        "company": null,
         "html_url": "https://github.com/KenChan23",
         "followers_url": "https://api.github.com/users/KenChan23/followers",
+        "subscriptions_url": "https://api.github.com/users/KenChan23/subscriptions",
         "organizations_url": "https://api.github.com/users/KenChan23/orgs",
         "repos_url": "https://api.github.com/users/KenChan23/repos",
         "type": "User",
@@ -3459,8 +3492,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/10816435?v=3",
+        "followers": 0,
+        "following": 0,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": "https://github.com/davidtannyu",
         "followers_url": "https://api.github.com/users/davidtannyu/followers",
+        "subscriptions_url": "https://api.github.com/users/davidtannyu/subscriptions",
         "organizations_url": "https://api.github.com/users/davidtannyu/orgs",
         "repos_url": "https://api.github.com/users/davidtannyu/repos",
         "type": "User",
@@ -3501,8 +3540,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/6701887?v=3",
+        "followers": 12,
+        "following": 3,
+        "location": null,
+        "email": "alanchen@nyu.edu",
+        "company": null,
         "html_url": "https://github.com/imAlan",
         "followers_url": "https://api.github.com/users/imAlan/followers",
+        "subscriptions_url": "https://api.github.com/users/imAlan/subscriptions",
         "organizations_url": "https://api.github.com/users/imAlan/orgs",
         "repos_url": "https://api.github.com/users/imAlan/repos",
         "type": "User",
@@ -3582,51 +3627,6 @@
                         "branch": "d3-view",
                         "message": "changed configurations for set up",
                         "date": "2015-04-08T16:50:03Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Merge branch 'workingBranch' of github.com:microsoftny/civic-graph into workingBranch",
-                        "date": "2015-06-03T20:46:29Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "updating an entity now works",
-                        "date": "2015-06-03T20:44:49Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "preform still needs some tweaks",
-                        "date": "2015-06-03T14:00:13Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "bug fix on prefill forms",
-                        "date": "2015-06-03T10:11:58Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "database config",
-                        "date": "2015-06-03T08:48:53Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "merge recent changes",
-                        "date": "2015-06-02T20:40:17Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "fixed funding and investment color",
-                        "date": "2015-06-02T19:29:37Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "i'm done yo",
-                        "date": "2015-06-02T11:40:29Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "change local db config",
-                        "date": "2015-06-01T15:47:21Z"
                     },
                     {
                         "branch": "backend-refactor",
@@ -3762,6 +3762,51 @@
                         "branch": "backend-refactor",
                         "message": "changed configurations for set up",
                         "date": "2015-04-08T16:50:03Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Merge branch 'workingBranch' of github.com:microsoftny/civic-graph into workingBranch",
+                        "date": "2015-06-03T20:46:29Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "updating an entity now works",
+                        "date": "2015-06-03T20:44:49Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "preform still needs some tweaks",
+                        "date": "2015-06-03T14:00:13Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "bug fix on prefill forms",
+                        "date": "2015-06-03T10:11:58Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "database config",
+                        "date": "2015-06-03T08:48:53Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "merge recent changes",
+                        "date": "2015-06-02T20:40:17Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "fixed funding and investment color",
+                        "date": "2015-06-02T19:29:37Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "i'm done yo",
+                        "date": "2015-06-02T11:40:29Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "change local db config",
+                        "date": "2015-06-01T15:47:21Z"
                     },
                     {
                         "branch": "new-schema",
@@ -4012,16 +4057,6 @@
                         "branch": "mapview",
                         "message": "changed configurations for set up",
                         "date": "2015-04-08T16:50:03Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "added min js",
-                        "date": "2015-05-27T11:13:05Z"
-                    },
-                    {
-                        "branch": "master",
-                        "message": "disabled edit",
-                        "date": "2015-05-26T16:45:18Z"
                     },
                     {
                         "branch": "test-environment",
@@ -4269,6 +4304,16 @@
                         "date": "2015-04-08T16:50:03Z"
                     },
                     {
+                        "branch": "master",
+                        "message": "added min js",
+                        "date": "2015-05-27T11:13:05Z"
+                    },
+                    {
+                        "branch": "master",
+                        "message": "disabled edit",
+                        "date": "2015-05-26T16:45:18Z"
+                    },
+                    {
                         "branch": "workingBranch",
                         "message": "merged in recent update",
                         "date": "2015-06-04T12:21:56Z"
@@ -4328,8 +4373,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/8383672?v=3",
+        "followers": 0,
+        "following": 1,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": "https://github.com/andela-ajayeoba",
         "followers_url": "https://api.github.com/users/andela-ajayeoba/followers",
+        "subscriptions_url": "https://api.github.com/users/andela-ajayeoba/subscriptions",
         "organizations_url": "https://api.github.com/users/andela-ajayeoba/orgs",
         "repos_url": "https://api.github.com/users/andela-ajayeoba/repos",
         "type": "User",
@@ -4406,6 +4457,21 @@
                         "date": "2015-04-03T18:14:27Z"
                     },
                     {
+                        "branch": "test-environment",
+                        "message": "update README",
+                        "date": "2015-04-03T19:10:11Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "update README",
+                        "date": "2015-04-03T19:07:23Z"
+                    },
+                    {
+                        "branch": "test-environment",
+                        "message": "updated README to refer to wiki",
+                        "date": "2015-04-03T18:14:27Z"
+                    },
+                    {
                         "branch": "master",
                         "message": "update README",
                         "date": "2015-04-03T19:10:11Z"
@@ -4429,29 +4495,20 @@
                         "branch": "master",
                         "message": "Update README.md",
                         "date": "2015-02-17T18:49:20Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "update README",
-                        "date": "2015-04-03T19:10:11Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "update README",
-                        "date": "2015-04-03T19:07:23Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "updated README to refer to wiki",
-                        "date": "2015-04-03T18:14:27Z"
                     }
                 ],
                 "count": 21
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/9029864?v=3",
+        "followers": 3,
+        "following": 1,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": "https://github.com/adysevy",
         "followers_url": "https://api.github.com/users/adysevy/followers",
+        "subscriptions_url": "https://api.github.com/users/adysevy/subscriptions",
         "organizations_url": "https://api.github.com/users/adysevy/orgs",
         "repos_url": "https://api.github.com/users/adysevy/repos",
         "type": "User",
@@ -4479,6 +4536,11 @@
                     },
                     {
                         "branch": "mapview",
+                        "message": "Fixed Issue #39: Developer page link must open new tab",
+                        "date": "2015-04-03T16:10:20Z"
+                    },
+                    {
+                        "branch": "test-environment",
                         "message": "Fixed Issue #39: Developer page link must open new tab",
                         "date": "2015-04-03T16:10:20Z"
                     },
@@ -4556,19 +4618,20 @@
                         "branch": "master",
                         "message": "added mac setup screenshots",
                         "date": "2015-02-23T22:40:16Z"
-                    },
-                    {
-                        "branch": "test-environment",
-                        "message": "Fixed Issue #39: Developer page link must open new tab",
-                        "date": "2015-04-03T16:10:20Z"
                     }
                 ],
                 "count": 20
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/6685950?v=3",
+        "followers": 5,
+        "following": 13,
+        "location": "United States",
+        "email": "fatimasarahkhalid@gmail.com",
+        "company": null,
         "html_url": "https://github.com/SugarOverflow",
         "followers_url": "https://api.github.com/users/SugarOverflow/followers",
+        "subscriptions_url": "https://api.github.com/users/SugarOverflow/subscriptions",
         "organizations_url": "https://api.github.com/users/SugarOverflow/orgs",
         "repos_url": "https://api.github.com/users/SugarOverflow/repos",
         "type": "User",
@@ -4579,86 +4642,6 @@
         "repos": {
             "civic-graph": {
                 "commits": [
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Post now works",
-                        "date": "2015-06-03T08:31:27Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "save to database",
-                        "date": "2015-06-02T20:17:54Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Push changes",
-                        "date": "2015-06-02T11:27:11Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "trying to make this work",
-                        "date": "2015-06-01T22:08:48Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "added post endpoint for cities and locations",
-                        "date": "2015-05-30T09:13:25Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "update routes",
-                        "date": "2015-05-29T15:06:02Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "adding new features",
-                        "date": "2015-05-28T13:14:31Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "backend routes",
-                        "date": "2015-05-28T11:04:56Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "resolved conflict",
-                        "date": "2015-05-27T15:05:57Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Adding post routes",
-                        "date": "2015-05-27T15:04:09Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Merge branch 'master' of github.com:andela-koni/civic",
-                        "date": "2015-05-25T13:05:23Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "More routes",
-                        "date": "2015-05-25T13:04:15Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Added more routes to the old.js file",
-                        "date": "2015-05-22T10:08:59Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "added more routes",
-                        "date": "2015-05-21T10:28:44Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Added the mysql dump",
-                        "date": "2015-05-20T09:36:59Z"
-                    },
-                    {
-                        "branch": "azure-workingBranch",
-                        "message": "Initial commit",
-                        "date": "2015-05-20T09:21:34Z"
-                    },
                     {
                         "branch": "backend-refactor",
                         "message": "Added more routes to the old.js script",
@@ -4808,6 +4791,86 @@
                         "branch": "backend-refactor",
                         "message": "Added the state and country input field",
                         "date": "2015-04-16T17:17:30Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Post now works",
+                        "date": "2015-06-03T08:31:27Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "save to database",
+                        "date": "2015-06-02T20:17:54Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Push changes",
+                        "date": "2015-06-02T11:27:11Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "trying to make this work",
+                        "date": "2015-06-01T22:08:48Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "added post endpoint for cities and locations",
+                        "date": "2015-05-30T09:13:25Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "update routes",
+                        "date": "2015-05-29T15:06:02Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "adding new features",
+                        "date": "2015-05-28T13:14:31Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "backend routes",
+                        "date": "2015-05-28T11:04:56Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "resolved conflict",
+                        "date": "2015-05-27T15:05:57Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Adding post routes",
+                        "date": "2015-05-27T15:04:09Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Merge branch 'master' of github.com:andela-koni/civic",
+                        "date": "2015-05-25T13:05:23Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "More routes",
+                        "date": "2015-05-25T13:04:15Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Added more routes to the old.js file",
+                        "date": "2015-05-22T10:08:59Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "added more routes",
+                        "date": "2015-05-21T10:28:44Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Added the mysql dump",
+                        "date": "2015-05-20T09:36:59Z"
+                    },
+                    {
+                        "branch": "azure-workingBranch",
+                        "message": "Initial commit",
+                        "date": "2015-05-20T09:21:34Z"
                     },
                     {
                         "branch": "new-schema",
@@ -5224,8 +5287,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/8383750?v=3",
+        "followers": 3,
+        "following": 0,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": "https://github.com/andela-koni",
         "followers_url": "https://api.github.com/users/andela-koni/followers",
+        "subscriptions_url": "https://api.github.com/users/andela-koni/subscriptions",
         "organizations_url": "https://api.github.com/users/andela-koni/orgs",
         "repos_url": "https://api.github.com/users/andela-koni/repos",
         "type": "User",
@@ -5571,8 +5640,14 @@
             }
         },
         "avatar_url": null,
+        "followers": null,
+        "following": null,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": null,
         "followers_url": null,
+        "subscriptions_url": null,
         "organizations_url": null,
         "repos_url": null,
         "type": null,
@@ -5638,8 +5713,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/6217518?v=3",
+        "followers": 9,
+        "following": 1,
+        "location": null,
+        "email": "tristan.t.siegel@gmail.com",
+        "company": null,
         "html_url": "https://github.com/TSiege",
         "followers_url": "https://api.github.com/users/TSiege/followers",
+        "subscriptions_url": "https://api.github.com/users/TSiege/subscriptions",
         "organizations_url": "https://api.github.com/users/TSiege/orgs",
         "repos_url": "https://api.github.com/users/TSiege/repos",
         "type": "User",
@@ -5660,8 +5741,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/8550489?v=3",
+        "followers": 3,
+        "following": 0,
+        "location": "New York",
+        "email": null,
+        "company": "Microsoft",
         "html_url": "https://github.com/microsoftny",
         "followers_url": "https://api.github.com/users/microsoftny/followers",
+        "subscriptions_url": "https://api.github.com/users/microsoftny/subscriptions",
         "organizations_url": "https://api.github.com/users/microsoftny/orgs",
         "repos_url": "https://api.github.com/users/microsoftny/repos",
         "type": "User",
@@ -5687,8 +5774,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/2267370?v=3",
+        "followers": 12,
+        "following": 25,
+        "location": "NYC",
+        "email": "rrelasmar@gmail.com",
+        "company": null,
         "html_url": "https://github.com/rasmi",
         "followers_url": "https://api.github.com/users/rasmi/followers",
+        "subscriptions_url": "https://api.github.com/users/rasmi/subscriptions",
         "organizations_url": "https://api.github.com/users/rasmi/orgs",
         "repos_url": "https://api.github.com/users/rasmi/repos",
         "type": "User",
@@ -5734,8 +5827,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/6685950?v=3",
+        "followers": 5,
+        "following": 13,
+        "location": "United States",
+        "email": "fatimasarahkhalid@gmail.com",
+        "company": null,
         "html_url": "https://github.com/SugarOverflow",
         "followers_url": "https://api.github.com/users/SugarOverflow/followers",
+        "subscriptions_url": "https://api.github.com/users/SugarOverflow/subscriptions",
         "organizations_url": "https://api.github.com/users/SugarOverflow/orgs",
         "repos_url": "https://api.github.com/users/SugarOverflow/repos",
         "type": "User",
@@ -5776,8 +5875,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/3289331?v=3",
+        "followers": 17,
+        "following": 23,
+        "location": "Washington, DC & New York, NY",
+        "email": null,
+        "company": null,
         "html_url": "https://github.com/johnpaulfarmer",
         "followers_url": "https://api.github.com/users/johnpaulfarmer/followers",
+        "subscriptions_url": "https://api.github.com/users/johnpaulfarmer/subscriptions",
         "organizations_url": "https://api.github.com/users/johnpaulfarmer/orgs",
         "repos_url": "https://api.github.com/users/johnpaulfarmer/repos",
         "type": "User",
@@ -5803,8 +5908,14 @@
             }
         },
         "avatar_url": null,
+        "followers": null,
+        "following": null,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": null,
         "followers_url": null,
+        "subscriptions_url": null,
         "organizations_url": null,
         "repos_url": null,
         "type": null,
@@ -5835,8 +5946,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/7219197?v=3",
+        "followers": 0,
+        "following": 0,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": "https://github.com/Teja0208",
         "followers_url": "https://api.github.com/users/Teja0208/followers",
+        "subscriptions_url": "https://api.github.com/users/Teja0208/subscriptions",
         "organizations_url": "https://api.github.com/users/Teja0208/orgs",
         "repos_url": "https://api.github.com/users/Teja0208/repos",
         "type": "User",
@@ -5857,8 +5974,14 @@
             }
         },
         "avatar_url": null,
+        "followers": null,
+        "following": null,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": null,
         "followers_url": null,
+        "subscriptions_url": null,
         "organizations_url": null,
         "repos_url": null,
         "type": null,
@@ -5879,8 +6002,14 @@
             }
         },
         "avatar_url": null,
+        "followers": null,
+        "following": null,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": null,
         "followers_url": null,
+        "subscriptions_url": null,
         "organizations_url": null,
         "repos_url": null,
         "type": null,
@@ -5911,8 +6040,14 @@
             }
         },
         "avatar_url": "https://avatars.githubusercontent.com/u/6701887?v=3",
+        "followers": 12,
+        "following": 3,
+        "location": null,
+        "email": "alanchen@nyu.edu",
+        "company": null,
         "html_url": "https://github.com/imAlan",
         "followers_url": "https://api.github.com/users/imAlan/followers",
+        "subscriptions_url": "https://api.github.com/users/imAlan/subscriptions",
         "organizations_url": "https://api.github.com/users/imAlan/orgs",
         "repos_url": "https://api.github.com/users/imAlan/repos",
         "type": "User",
@@ -5933,8 +6068,14 @@
             }
         },
         "avatar_url": null,
+        "followers": null,
+        "following": null,
+        "location": null,
+        "email": null,
+        "company": null,
         "html_url": null,
         "followers_url": null,
+        "subscriptions_url": null,
         "organizations_url": null,
         "repos_url": null,
         "type": null,
