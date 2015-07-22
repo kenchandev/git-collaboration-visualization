@@ -1,10 +1,19 @@
-extends meta
+doctype html
+html(lang='en')
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon', href='./img/black-github.png')
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css', rel='stylesheet', media='screen')
+    link(href='../../css/network.css', rel='stylesheet')
+  body
+    div.container              
+      h1 You are logged in.
+      p.lead Say something worthwhile here.
+      a(href="/") Go home
+      a(href="/logout") Logout
 
-block content
-  div.container              
-    h1 You are logged in.
-    p.lead Say something worthwhile here.
-    a(href="/") Go home
-    a(href="/logout") Logout
-
-    div= info
+      //- div= info
+    script(text='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js')
+    script(text='text/javascript', src='http://d3js.org/queue.v1.min.js')
+    script(type='text/javascript', src='../../js/visualization.js')

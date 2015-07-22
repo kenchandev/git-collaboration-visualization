@@ -3,7 +3,8 @@ html{
 }
 
 body{
-  background-image: url('../img/30508.png');
+  display: none;
+  background-image: url('../img/greyscale-network.png');
   background-repeat: no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;

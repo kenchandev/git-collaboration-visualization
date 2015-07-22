@@ -139,6 +139,8 @@ var fs = require('fs');
         //  visualization_data      ->  test.json
         //  results                 ->  example.json
         //  contributors            ->  viz.json
+
+        //JSON.stringify(contributors, null, '\t')
         var endTime = new Date().getTime();
         console.log('Elapsed Time: ', endTime - startTime);
 

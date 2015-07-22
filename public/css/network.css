@@ -1,0 +1,14 @@
+body {
+  background-color: #888888;
+}
+
+.node circle {
+  cursor: pointer;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 13px sans-serif;
+  pointer-events: none;
+  text-anchor: middle;
+}

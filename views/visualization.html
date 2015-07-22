@@ -2,14 +2,17 @@
 <meta charset="utf-8">
 <style>
 
+body {
+  background-color: #888888;
+}
+
 .node circle {
   cursor: pointer;
-  stroke: #3182bd;
   stroke-width: 1.5px;
 }
 
 .node text {
-  font: 10px sans-serif;
+  font: 13px sans-serif;
   pointer-events: none;
   text-anchor: middle;
 }
@@ -23,6 +26,7 @@
 </style>
 <body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
 <script>
 
 var width = 1500,
@@ -31,7 +35,7 @@ var width = 1500,
 
 var force = d3.layout.force()
     .linkDistance(80)
-    .charge(-120)
+    .charge(-300)
     .gravity(.05)
     .size([width, height])
     .on("tick", tick);
@@ -43,8 +47,20 @@ var svg = d3.select("body").append("svg")
 var link = svg.selectAll(".link"),
     node = svg.selectAll(".node");
 
+queue()
+    .defer(d3.json, "./sample_data/test.json")
+    .defer(d3.json, "./sample_data/viz.json")
+    .await(function(error, file1, file2) { console.log(file1, file2); });
+
+
 d3.json("./sample_data/test.json", function(error, json) {
   if (error) throw error;
+
+  console.log(json);
+
+  // linkScale = d3.scale.linear()
+  //                     .domain([])
+  //                     .range([]);
 
   root = json;
   update();
@@ -53,9 +69,6 @@ d3.json("./sample_data/test.json", function(error, json) {
 function update() {
   var nodes = flatten(root),
       links = d3.layout.tree().links(nodes);
-
-  // console.log(nodes);
-  console.log(links);
 
   // Restart the force layout.
   force
@@ -71,20 +84,25 @@ function update() {
   link.enter().insert("line", ".node")
       // .attr("class", "link")
       .attr("stroke-width", function(d){
-        console.log(d.source);
-        console.log(d.target);
+        console.log('Source: ', d.source);  //  Sources are the repositories/branches.
+        console.log('Target: ', d.target);  //  Targets are the contributors.
 
-        if(d.source.values){
-          return d.source.values;
+        if(d.source.key){
+          return Math.sqrt(d.source.values);
         }
-        else {
-          return (d.target.values) ? d.target.values : 1;
+        else if(d.target.key){
+          return Math.sqrt(d.target.values);
+        }
+        else{
+          return 2;
         }
       })
-     .attr("stroke", "#9ecae1");
+     .attr("stroke", function(d){
+        return (d.source.key || d.target.key) ? '#88D3A1' : '#646464';
+     });
 
   // Update nodes.
-  node = node.data(nodes, function(d) {console.log(d); return d.id; });
+  node = node.data(nodes, function(d) { console.log('Node: ', d); return d.id; });
 
   node.exit().remove();
 
@@ -94,14 +112,19 @@ function update() {
       .call(force.drag);
 
   nodeEnter.append("circle")
-      .attr("r", function(d, i) { if(d.type === 'repository'){ console.log(d.children); } return (d.values) ? d.values : 4.5; });
+      .attr("r", function(d, i) { 
+        return (d.values) ? d.values : 4.5; 
+      });
 
   nodeEnter.append("text")
       .attr("dy", ".35em")
-      .text(function(d) { return (d.name) ? d.name : d.key; });
+      .text(function(d) { return (d.name) ? d.name : d.key; })
+      .style("fill", "white");
 
   node.select("circle")
-      .style("fill", color);
+      .style("fill", function(d) {
+        return "#805489";
+      });
 }
 
 function tick() {
@@ -111,12 +134,6 @@ function tick() {
       .attr("y2", function(d) { return d.target.y; });
 
   node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-}
-
-function color(d) {
-  return d._children ? "#3182bd" // collapsed package
-      : d.children ? "#c6dbef" // expanded package
-      : "#fd8d3c"; // leaf node
 }
 
 // Toggle children on click.
@@ -137,7 +154,6 @@ function flatten(root) {
   var nodes = [], i = 0;
 
   function recurse(node) {
-    console.log(node);
     if (node.children) 
       node.children.forEach(recurse);
     if (!node.id) 
